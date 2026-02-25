@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-green-light: #6be76a;
+  --color-green-medium: #55ea1d;
+  --color-cyan-light: #46e9ca;
+  --color-cyan-medium: #6aa6b4;
+  --color-dark-bg: #143627;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-dark-bg);
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d2419;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-cyan-medium);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-cyan-light);
+}
+
+/* Noise texture overlay */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  opacity: 0.03;
+  z-index: 9999;
+}
+
+/* Stagger animation helpers */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+.stagger-6 { animation-delay: 0.6s; }
+
+.opacity-0-init {
+  opacity: 0;
+}
+
+/* Gradient text utility */
+.gradient-text-green {
+  background: linear-gradient(135deg, var(--color-green-light), var(--color-cyan-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-cyan {
+  background: linear-gradient(135deg, var(--color-cyan-light), var(--color-green-medium));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Card glow on hover */
+.platform-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 60px rgba(70, 233, 202, 0.15), 0 0 0 1px rgba(70, 233, 202, 0.2);
+}
+
+.platform-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Nav link underline animation */
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--color-cyan-light);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Rotating border for hero icon */
+.rotating-border {
+  position: relative;
+}
+
+.rotating-border::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0%,
+    var(--color-cyan-light) 30%,
+    transparent 60%
+  );
+  animation: borderSpin 3s linear infinite;
+  z-index: -1;
+}
+
+/* Input focus styles */
+.form-input {
+  background: rgba(20, 54, 39, 0.6);
+  border: 1px solid rgba(70, 233, 202, 0.2);
+  transition: all 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--color-cyan-light);
+  box-shadow: 0 0 20px rgba(70, 233, 202, 0.1);
+}
+
+/* Button shimmer effect */
+.btn-primary {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+  transition: left 0.5s ease;
+}
+
+.btn-primary:hover::before {
+  left: 100%;
+}
+
+/* Hex decorative elements */
+.hex-bg {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* Section fade-in on scroll */
+.section-reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.section-reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
