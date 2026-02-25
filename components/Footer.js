@@ -127,10 +127,12 @@ export default function Footer() {
             Contact
           </h4>
           <a
-            href="mailto:hello@nsembe.tech"
+            href="mailto:info@nsembe.online"
             className="font-body text-sm text-white/55 hover:text-cyan-light transition-colors duration-200"
           >
-            info@nsembe.online
+            info@nsembe.online <br></br>
+            +260973833383 <br></br>
+            3rd Street Ibex Hill, Lusaka, Zambia 
           </a>
         </div>
       </div>
@@ -138,14 +140,15 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/6 max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
         <p className="font-mono text-xs text-white/30">
-          © {year} Nsembe Technologies. All rights reserved.
+          © {year} Nsembe Technologies. All rights reserved. A tech start up by Kasanda Mwila Enterprise Ltd.
         </p>
         <div className="flex items-center gap-5">
-          {["Privacy Policy", "Terms of Use"].map((link) => (
-            <a key={link} href="#" className="font-mono text-xs text-white/30 hover:text-white/60 transition-colors duration-200">
-              {link}
-            </a>
-          ))}
+          <Link href="/legal/privacy" className="font-mono text-xs text-white/30 hover:text-white/60 transition-colors duration-200">
+            Privacy Policy
+          </Link>
+          <Link href="/legal/terms" className="font-mono text-xs text-white/30 hover:text-white/60 transition-colors duration-200">
+            Terms of Use
+          </Link>
         </div>
       </div>
     </footer>

@@ -6,6 +6,14 @@ import Hero from "../components/Hero";
 import Platforms from "../components/Platforms";
 import MarketFocus from "../components/MarketFocus";
 import ContactForm from "../components/ContactForm";
+import Slider from "../components/Slider";
+import HeroVideo from "../components/HeroVideo";
+import Philosophy from "../components/Philosophy";
+import SystemsArchitecture from "../components/SystemsArchitecture";
+import TrustBlock from "../components/TrustBlock";
+import OperationalScenarios from "../components/OperationalScenarios";
+import SecurityGovernance from "../components/SecurityGovernance";
+
 
 export default function Home() {
   return (
@@ -45,9 +53,16 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col gap-28">
+        <HeroVideo />
+        <Philosophy />
+        <Slider />
         <Hero />
         <Platforms />
+        <SystemsArchitecture />
+        <TrustBlock />
         <MarketFocus />
+        <OperationalScenarios />
+        <SecurityGovernance />
         <ContactForm />
       </main>
     </Layout>

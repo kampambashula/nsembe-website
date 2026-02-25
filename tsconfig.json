@@ -23,7 +23,7 @@
     "**/*.ts",
     "**/*.tsx",
     "pages/markets/[slug].jsx"
-  ],
+, "pages/contact/index.js"  ],
   "exclude": [
     "node_modules"
   ]
