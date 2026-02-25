@@ -1,9 +1,10 @@
 // pages/markets/[slug].jsx
 import { useRouter } from "next/router";
 import GovernmentPlatform from "../../components/platforms/GovernmentPlatform";
-import HealthPlatform from "../../components/platforms/healthPlatform";
-import EnterprisePlatform from "../../components/platforms/enterprisePlatform";
-import NGOPlatform from "../../components/platforms/ngoPlatform";
+import HealthPlatform from "../../components/platforms/HealthPlatform";
+import EnterprisePlatform from "../../components/platforms/EnterprisePlatform";
+import NGOPlatform from "../../components/platforms/NGOPlatform";
+import EducationPlatform from "../../components/platforms/EducationPlatform"
 
 
 const platformMap = {
@@ -11,6 +12,7 @@ const platformMap = {
   health: HealthPlatform,
   enterprise: EnterprisePlatform,
   ngo: NGOPlatform,
+  education: EducationPlatform,
  
 };
 
