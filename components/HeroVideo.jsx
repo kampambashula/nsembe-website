@@ -25,7 +25,7 @@ export default function HeroVideo() {
           Offline-first AI platforms powering business, schools, clinics, NGOs and government institutions.
         </p>
         <div className="flex justify-center gap-4 flex-wrap">
-          <Link href="/platforms" className="px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition">
+          <Link href="#platforms" className="px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition">
             Explore Platforms
           </Link>
           <Link href="/contact" className="px-6 py-3 bg-white/10 rounded-xl font-semibold hover:bg-white/20 transition">

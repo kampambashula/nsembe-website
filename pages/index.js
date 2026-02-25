@@ -52,7 +52,7 @@ export default function Home() {
         />
       </Head>
 
-      <main className="flex flex-col gap-28">
+      <main className="flex flex-col gap-1">
         <HeroVideo />
         <Philosophy />
         <Slider />
