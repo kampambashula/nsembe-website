@@ -137,7 +137,7 @@ export default function SchoolServerOSPage() {
                   SchoolTrack Basic
                 </h4>
                 <p className="text-3xl font-bold mb-6">
-                  ZMW 6,500
+                  ZMW 8,550
                   <span className="text-sm text-white/50"> / year</span>
                 </p>
 
@@ -155,7 +155,7 @@ export default function SchoolServerOSPage() {
                   SchoolTrack Pro
                 </h4>
                 <p className="text-3xl font-bold mb-6">
-                  ZMW 12,000
+                  ZMW 15,500
                   <span className="text-sm text-white/50"> / year</span>
                 </p>
 
@@ -173,7 +173,7 @@ export default function SchoolServerOSPage() {
                   School Server OS
                 </h4>
                 <p className="text-3xl font-bold mb-6">
-                  ZMW 18,500
+                  ZMW 24,500
                   <span className="text-sm text-white/50"> / once-off</span>
                 </p>
 
