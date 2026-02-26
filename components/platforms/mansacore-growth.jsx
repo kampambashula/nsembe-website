@@ -64,82 +64,123 @@ export default function MansacoreGrowthPage() {
         </section>
 
         {/* PRICING SECTION */}
-        <section className="py-32 px-6 bg-gradient-to-b from-transparent to-black/40">
-          <div className="max-w-6xl mx-auto text-center">
-            <h2 className="font-display font-800 text-4xl mb-4">
-              Pricing Plans
-            </h2>
-            <p className="text-white/60 mb-16">
-              Flexible monthly or discounted annual subscriptions for Zambian SMEs.
-            </p>
+<section className="py-32 px-6 bg-gradient-to-b from-transparent to-black/40">
+  <div className="max-w-7xl mx-auto text-center">
+    <h2 className="font-display font-800 text-4xl mb-4">
+      Flexible Pricing for Every Stage of Growth
+    </h2>
+    <p className="text-white/60 mb-16">
+      Designed for Zambian SMEs — from solo operators to multi-entity enterprises.
+    </p>
 
-            <div className="grid lg:grid-cols-3 gap-10">
+    <div className="grid lg:grid-cols-5 gap-8">
 
-              {/* ESSENTIAL */}
-              <div className="bg-white/5 border border-white/10 rounded-2xl p-10 backdrop-blur">
-                <h4 className="text-xl font-semibold mb-4">Essential</h4>
-                <p className="text-white/50 mb-6">For Small Formal Businesses</p>
+      {/* SOLO */}
+      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
+        <h4 className="text-lg font-semibold mb-2">Solo</h4>
+        <p className="text-white/50 text-sm mb-6">For Individual Operators</p>
 
-                <div className="mb-6">
-                  <p className="text-3xl font-bold">ZMW 950<span className="text-sm text-white/50">/month</span></p>
-                  <p className="text-white/40 mt-2">or ZMW 10,000/year</p>
-                  <p className="text-cyan-400 text-sm mt-1">Save 15% annually</p>
-                </div>
+        <p className="text-2xl font-bold">
+          ZMW 650<span className="text-sm text-white/50">/month</span>
+        </p>
+        <p className="text-white/40 mt-2">or ZMW 7,000/year</p>
 
-                <ul className="text-white/70 space-y-3 text-left">
-                  <li>• IFRS-compliant accounting</li>
-                  <li>• Up to 5 users</li>
-                  <li>• Standard financial reports</li>
-                  <li>• Audit trail</li>
-                  <li>• Email support</li>
-                </ul>
-              </div>
+        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
+          <li>• 1 User</li>
+          <li>• Basic Accounting</li>
+          <li>• Basic Reports</li>
+          <li>• No Audit Trail</li>
+          <li>• Basic Email Support</li>
+        </ul>
+      </div>
 
-              {/* PROFESSIONAL */}
-              <div className="bg-cyan-500/10 border border-cyan-400 rounded-2xl p-10 backdrop-blur scale-105 shadow-xl">
-                <h4 className="text-xl font-semibold mb-4 text-cyan-400">
-                  Professional
-                </h4>
-                <p className="text-white/50 mb-6">For Growing SMEs</p>
+      {/* STARTER */}
+      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
+        <h4 className="text-lg font-semibold mb-2">Starter</h4>
+        <p className="text-white/50 text-sm mb-6">For Small Formal SMEs</p>
 
-                <div className="mb-6">
-                  <p className="text-3xl font-bold">ZMW 2,500<span className="text-sm text-white/50">/month</span></p>
-                  <p className="text-white/40 mt-2">or ZMW 27,000/year</p>
-                  <p className="text-cyan-400 text-sm mt-1">Save 10% annually</p>
-                </div>
+        <p className="text-2xl font-bold">
+          ZMW 1,200<span className="text-sm text-white/50">/month</span>
+        </p>
+        <p className="text-white/40 mt-2">or ZMW 13,000/year</p>
 
-                <ul className="text-white/70 space-y-3 text-left">
-                  <li>• Accounting + Inventory</li>
-                  <li>• Up to 25 users</li>
-                  <li>• Financial dashboards</li>
-                  <li>• AI Forecasting (optional)</li>
-                  <li>• Priority support</li>
-                </ul>
-              </div>
+        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
+          <li>• Up to 5 Users</li>
+          <li>• IFRS Accounting</li>
+          <li>• Financial Statements</li>
+          <li>• Basic Dashboard</li>
+          <li>• Optional AI Add-On</li>
+        </ul>
+      </div>
 
-              {/* ENTERPRISE */}
-              <div className="bg-white/5 border border-white/10 rounded-2xl p-10 backdrop-blur">
-                <h4 className="text-xl font-semibold mb-4">Enterprise</h4>
-                <p className="text-white/50 mb-6">For Large SMEs & Corporates</p>
+      {/* PROFESSIONAL (HIGHLIGHTED) */}
+      <div className="bg-cyan-500/10 border-2 border-cyan-400 rounded-2xl p-8 backdrop-blur scale-105 shadow-xl">
+        <span className="text-xs uppercase tracking-widest text-cyan-400">
+          Most Popular
+        </span>
+        <h4 className="text-lg font-semibold mb-2 mt-2 text-cyan-400">
+          Professional
+        </h4>
+        <p className="text-white/50 text-sm mb-6">For Growing Businesses</p>
 
-                <div className="mb-6">
-                  <p className="text-3xl font-bold">ZMW 6,800<span className="text-sm text-white/50">/month</span></p>
-                  <p className="text-white/40 mt-2">or ZMW 75,000/year</p>
-                  <p className="text-cyan-400 text-sm mt-1">Custom SLA & onboarding</p>
-                </div>
+        <p className="text-2xl font-bold">
+          ZMW 3,200<span className="text-sm text-white/50">/month</span>
+        </p>
+        <p className="text-white/40 mt-2">or ZMW 34,000/year</p>
 
-                <ul className="text-white/70 space-y-3 text-left">
-                  <li>• Full ERP suite</li>
-                  <li>• Multi-entity support</li>
-                  <li>• AI Forecasting included</li>
-                  <li>• Dedicated support</li>
-                  <li>• Implementation assistance</li>
-                </ul>
-              </div>
+        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
+          <li>• 6–25 Users</li>
+          <li>• Accounting + Inventory</li>
+          <li>• Financial Dashboards</li>
+          <li>• AI Forecasting Included</li>
+          <li>• Priority Support</li>
+        </ul>
+      </div>
 
-            </div>
-          </div>
-        </section>
+      {/* BUSINESS PLUS */}
+      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
+        <h4 className="text-lg font-semibold mb-2">Business Plus</h4>
+        <p className="text-white/50 text-sm mb-6">For Expanding SMEs</p>
+
+        <p className="text-2xl font-bold">
+          ZMW 6,500<span className="text-sm text-white/50">/month</span>
+        </p>
+        <p className="text-white/40 mt-2">or ZMW 72,000/year</p>
+
+        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
+          <li>• 25–60 Users</li>
+          <li>• Full ERP Suite</li>
+          <li>• Multi-Entity Support</li>
+          <li>• Advanced Analytics</li>
+          <li>• Semi-Dedicated Support</li>
+        </ul>
+      </div>
+
+      {/* ENTERPRISE */}
+      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
+        <h4 className="text-lg font-semibold mb-2">Enterprise</h4>
+        <p className="text-white/50 text-sm mb-6">For Large Operations</p>
+
+        <p className="text-2xl font-bold">
+          ZMW 12,000+
+          <span className="text-sm text-white/50">/month</span>
+        </p>
+        <p className="text-white/40 mt-2">or ZMW 150,000+/year</p>
+
+        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
+          <li>• 60+ Users</li>
+          <li>• Dedicated Account Manager</li>
+          <li>• SLA & Custom Integrations</li>
+          <li>• Onsite Training</li>
+          <li>• Strategic AI Intelligence</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 
         {/* FINAL CTA */}
         <section className="py-24 px-6 text-center">

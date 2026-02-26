@@ -129,8 +129,8 @@ export default function ClinicaePage() {
                 <ul className="space-y-3 text-white/70 text-sm">
                   <li>Up to 10 Users</li>
                   <li>Patient Records & OPD</li>
-                  <li>Pharmacy Module</li>
-                  <li>Basic AI Risk Alerts</li>
+                  <li>Workflow Module</li>
+                  <li>Basic Risk Alerts</li>
                   <li>Email Support</li>
                 </ul>
               </div>
