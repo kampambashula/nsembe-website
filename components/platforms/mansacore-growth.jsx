@@ -1,5 +1,6 @@
 import Layout from "../../components/Layout";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function MansacoreGrowthPage() {
   return (
@@ -67,10 +68,10 @@ export default function MansacoreGrowthPage() {
 <section className="py-32 px-6 bg-gradient-to-b from-transparent to-black/40">
   <div className="max-w-7xl mx-auto text-center">
     <h2 className="font-display font-800 text-4xl mb-4">
-      Flexible Pricing for Every Stage of Growth
+      Flexible, Transparent & Tailored to Your Organization
     </h2>
     <p className="text-white/60 mb-16">
-      Designed for Zambian SMEs — from solo operators to multi-entity enterprises.
+      Mansacore adapts to the needs of every Zambian SME — from solo operators to large enterprises. Pricing depends on your organization’s size, selected modules, and deployment requirements.
     </p>
 
     <div className="grid lg:grid-cols-5 gap-8">
@@ -78,56 +79,47 @@ export default function MansacoreGrowthPage() {
       {/* SOLO */}
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
         <h4 className="text-lg font-semibold mb-2">Solo</h4>
-        <p className="text-white/50 text-sm mb-6">For Individual Operators</p>
-
-        <p className="text-2xl font-bold">
-          ZMW 650<span className="text-sm text-white/50">/month</span>
-        </p>
-        <p className="text-white/40 mt-2">or ZMW 7,000/year</p>
-
+        <p className="text-white/50 text-sm mb-6">Ideal for Individual Operators</p>
+        <p className="text-white/40 mb-4">Starting at ZMW 650/month</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
           <li>• 1 User</li>
-          <li>• Basic Accounting</li>
+          <li>• Basic Accounting & Ledgers</li>
           <li>• Basic Reports</li>
-          <li>• No Audit Trail</li>
-          <li>• Basic Email Support</li>
+          <li>• Optional AI Add-Ons</li>
         </ul>
+        <Link 
+          href="/contact" 
+          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+        >
+          Request a Quote
+        </Link>
       </div>
 
       {/* STARTER */}
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
         <h4 className="text-lg font-semibold mb-2">Starter</h4>
-        <p className="text-white/50 text-sm mb-6">For Small Formal SMEs</p>
-
-        <p className="text-2xl font-bold">
-          ZMW 1,200<span className="text-sm text-white/50">/month</span>
-        </p>
-        <p className="text-white/40 mt-2">or ZMW 13,000/year</p>
-
+        <p className="text-white/50 text-sm mb-6">Ideal for Small Formal SMEs</p>
+        <p className="text-white/40 mb-4">Starting at ZMW 1,200/month</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
           <li>• Up to 5 Users</li>
-          <li>• IFRS Accounting</li>
-          <li>• Financial Statements</li>
-          <li>• Basic Dashboard</li>
-          <li>• Optional AI Add-On</li>
+          <li>• IFRS-Compliant Accounting</li>
+          <li>• Financial Statements & Dashboards</li>
+          <li>• Optional AI Add-Ons</li>
         </ul>
+        <Link 
+          href="/contact" 
+          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+        >
+          Request a Quote
+        </Link>
       </div>
 
-      {/* PROFESSIONAL (HIGHLIGHTED) */}
+      {/* PROFESSIONAL */}
       <div className="bg-cyan-500/10 border-2 border-cyan-400 rounded-2xl p-8 backdrop-blur scale-105 shadow-xl">
-        <span className="text-xs uppercase tracking-widest text-cyan-400">
-          Most Popular
-        </span>
-        <h4 className="text-lg font-semibold mb-2 mt-2 text-cyan-400">
-          Professional
-        </h4>
-        <p className="text-white/50 text-sm mb-6">For Growing Businesses</p>
-
-        <p className="text-2xl font-bold">
-          ZMW 3,200<span className="text-sm text-white/50">/month</span>
-        </p>
-        <p className="text-white/40 mt-2">or ZMW 34,000/year</p>
-
+        <span className="text-xs uppercase tracking-widest text-cyan-400">Most Popular</span>
+        <h4 className="text-lg font-semibold mb-2 mt-2 text-cyan-400">Professional</h4>
+        <p className="text-white/50 text-sm mb-6">Ideal for Growing Businesses</p>
+        <p className="text-white/40 mb-4">Starting at ZMW 3,200/month</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
           <li>• 6–25 Users</li>
           <li>• Accounting + Inventory</li>
@@ -135,18 +127,19 @@ export default function MansacoreGrowthPage() {
           <li>• AI Forecasting Included</li>
           <li>• Priority Support</li>
         </ul>
+        <Link 
+          href="/contact" 
+          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+        >
+          Request a Quote
+        </Link>
       </div>
 
       {/* BUSINESS PLUS */}
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
         <h4 className="text-lg font-semibold mb-2">Business Plus</h4>
-        <p className="text-white/50 text-sm mb-6">For Expanding SMEs</p>
-
-        <p className="text-2xl font-bold">
-          ZMW 6,500<span className="text-sm text-white/50">/month</span>
-        </p>
-        <p className="text-white/40 mt-2">or ZMW 72,000/year</p>
-
+        <p className="text-white/50 text-sm mb-6">Ideal for Expanding SMEs</p>
+        <p className="text-white/40 mb-4">Custom Quote</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
           <li>• 25–60 Users</li>
           <li>• Full ERP Suite</li>
@@ -154,19 +147,19 @@ export default function MansacoreGrowthPage() {
           <li>• Advanced Analytics</li>
           <li>• Semi-Dedicated Support</li>
         </ul>
+        <Link 
+          href="/contact" 
+          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+        >
+          Request a Quote
+        </Link>
       </div>
 
       {/* ENTERPRISE */}
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
         <h4 className="text-lg font-semibold mb-2">Enterprise</h4>
-        <p className="text-white/50 text-sm mb-6">For Large Operations</p>
-
-        <p className="text-2xl font-bold">
-          ZMW 12,000+
-          <span className="text-sm text-white/50">/month</span>
-        </p>
-        <p className="text-white/40 mt-2">or ZMW 150,000+/year</p>
-
+        <p className="text-white/50 text-sm mb-6">Ideal for Large Operations</p>
+        <p className="text-white/40 mb-4">Custom Quote</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
           <li>• 60+ Users</li>
           <li>• Dedicated Account Manager</li>
@@ -174,6 +167,12 @@ export default function MansacoreGrowthPage() {
           <li>• Onsite Training</li>
           <li>• Strategic AI Intelligence</li>
         </ul>
+        <Link 
+          href="/contact" 
+          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+        >
+          Request a Quote
+        </Link>
       </div>
 
     </div>
@@ -190,9 +189,12 @@ export default function MansacoreGrowthPage() {
           <p className="text-white/50 max-w-2xl mx-auto mb-10">
             Reduce manual errors, increase transparency, and gain actionable insights.
           </p>
-          <button className="px-8 py-4 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition">
-            Request a Demo
-          </button>
+          <Link 
+          href="/contact" 
+          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+        >
+          Request a Quote
+        </Link>
         </section>
 
       </div>

@@ -107,79 +107,100 @@ export default function ClinicaePage() {
         </section>
 
         {/* PRICING SECTION */}
-        <section className="py-32 px-6">
-          <div className="max-w-6xl mx-auto text-center">
+<section className="py-32 px-6 bg-dark-bg">
+  <div className="max-w-6xl mx-auto text-center">
 
-            <h3 className="font-display font-800 text-4xl mb-16">
-              Institutional Pricing
-            </h3>
+    <h3 className="font-display font-800 text-4xl mb-16">
+      Institutional Pricing
+    </h3>
 
-            <div className="grid md:grid-cols-3 gap-10">
+    <div className="grid md:grid-cols-3 gap-10">
 
-              {/* CLINIC PLAN */}
-              <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
-                <h4 className="font-display text-xl mb-4 text-cyan-400">
-                  Clinicae Clinic
-                </h4>
-                <p className="text-3xl font-bold mb-6">
-                  ZMW 15,000
-                  <span className="text-sm text-white/50"> / year</span>
-                </p>
+      {/* CLINIC PLAN */}
+      <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
+        <h4 className="font-display text-xl mb-4 text-cyan-400">
+          Clinicae Clinic
+        </h4>
+        <p className="text-3xl font-bold mb-6">
+          Starting at ZMW 15,000
+          <span className="text-sm text-white/50"> / year</span>
+        </p>
 
-                <ul className="space-y-3 text-white/70 text-sm">
-                  <li>Up to 10 Users</li>
-                  <li>Patient Records & OPD</li>
-                  <li>Workflow Module</li>
-                  <li>Basic Risk Alerts</li>
-                  <li>Email Support</li>
-                </ul>
-              </div>
+        <ul className="space-y-3 text-white/70 text-sm">
+          <li>Up to 10 Users</li>
+          <li>Patient Records & OPD</li>
+          <li>Workflow Module</li>
+          <li>Basic Risk Alerts</li>
+          <li>Email Support</li>
+        </ul>
 
-              {/* HOSPITAL PLAN */}
-              <div className="p-8 rounded-2xl border border-cyan-500 bg-cyan-500/5">
-                <h4 className="font-display text-xl mb-4 text-cyan-400">
-                  Clinicae Hospital
-                </h4>
-                <p className="text-3xl font-bold mb-6">
-                  ZMW 45,000
-                  <span className="text-sm text-white/50"> / year</span>
-                </p>
+        <Link 
+          href="/contact" 
+          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+        >
+          Request a Quote
+        </Link>
+      </div>
 
-                <ul className="space-y-3 text-white/70 text-sm">
-                  <li>Unlimited Users</li>
-                  <li>Inpatient & Ward Management</li>
-                  <li>Laboratory Module</li>
-                  <li>Advanced AI Clinical Support</li>
-                  <li>Priority Support & Training</li>
-                </ul>
-              </div>
+      {/* HOSPITAL PLAN */}
+      <div className="p-8 rounded-2xl border border-cyan-500 bg-cyan-500/5">
+        <h4 className="font-display text-xl mb-4 text-cyan-400">
+          Clinicae Hospital
+        </h4>
+        <p className="text-3xl font-bold mb-6">
+          Starting at ZMW 45,000
+          <span className="text-sm text-white/50"> / year</span>
+        </p>
 
-              {/* NATIONAL / DISTRICT */}
-              <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
-                <h4 className="font-display text-xl mb-4 text-cyan-400">
-                  District / National Rollout
-                </h4>
-                <p className="text-3xl font-bold mb-6">
-                  Custom Pricing
-                </p>
+        <ul className="space-y-3 text-white/70 text-sm">
+          <li>Unlimited Users</li>
+          <li>Inpatient & Ward Management</li>
+          <li>Laboratory Module</li>
+          <li>Advanced AI Clinical Support</li>
+          <li>Priority Support & Training</li>
+        </ul>
 
-                <ul className="space-y-3 text-white/70 text-sm">
-                  <li>Multi-Facility Deployment</li>
-                  <li>Central Analytics Dashboard</li>
-                  <li>National Reporting Framework</li>
-                  <li>Custom Integration with MoH Systems</li>
-                  <li>Onsite Deployment & Capacity Building</li>
-                </ul>
-              </div>
+        <Link 
+          href="/contact" 
+          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+        >
+          Request a Quote
+        </Link>
+      </div>
 
-            </div>
+      {/* NATIONAL / DISTRICT */}
+      <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
+        <h4 className="font-display text-xl mb-4 text-cyan-400">
+          District / National Rollout
+        </h4>
+        <p className="text-3xl font-bold mb-6">
+          Custom Pricing
+        </p>
 
-            <p className="text-white/40 mt-10 text-sm">
-              Hardware-based offline server packages available upon request.
-            </p>
+        <ul className="space-y-3 text-white/70 text-sm">
+          <li>Multi-Facility Deployment</li>
+          <li>Central Analytics Dashboard</li>
+          <li>National Reporting Framework</li>
+          <li>Custom Integration with MoH Systems</li>
+          <li>Onsite Deployment & Capacity Building</li>
+        </ul>
 
-          </div>
-        </section>
+        <Link 
+          href="/contact" 
+          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+        >
+          Request a Quote
+        </Link>
+      </div>
+
+    </div>
+
+    <p className="text-white/40 mt-10 text-sm">
+      Hardware-based offline server packages available upon request.
+    </p>
+
+  </div>
+</section>
 
         {/* FINAL CTA */}
         <section className="py-32 px-6 text-center bg-dark-bg-2">

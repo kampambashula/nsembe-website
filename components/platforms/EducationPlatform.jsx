@@ -55,27 +55,7 @@ export default function EducationPlatform() {
           </div>
         </section>
 
-        {/* VIDEO SECTION */}
-        <section className="py-28 px-6 bg-dark-bg-2">
-          <div className="max-w-5xl mx-auto text-center">
-            <h2 className="font-display font-800 text-4xl mb-10">
-              See SchoolTrack in Action
-            </h2>
-
-            <div className="aspect-video rounded-2xl overflow-hidden border border-white/10 shadow-xl">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                title="SchoolTrack Demo"
-                allowFullScreen
-              />
-            </div>
-
-            <p className="text-white/50 mt-6 text-sm">
-              Overview of attendance tracking, performance analytics, and offline sync capabilities.
-            </p>
-          </div>
-        </section>
+        
 
         {/* SCHOOL TRACK SECTION */}
         <section className="py-28 px-6">
@@ -145,70 +125,7 @@ export default function EducationPlatform() {
           </div>
         </section>
 
-        {/* PRICING SECTION */}
-        <section className="py-32 px-6">
-          <div className="max-w-6xl mx-auto text-center">
-            <h3 className="font-display font-800 text-4xl mb-16">
-              Institutional Pricing
-            </h3>
-
-            <div className="grid md:grid-cols-3 gap-10">
-
-              {/* SCHOOL TRACK BASIC */}
-              <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
-                <h4 className="font-display text-xl mb-4 text-blue-400">
-                  SchoolTrack Basic
-                </h4>
-                <p className="text-3xl font-bold mb-6">
-                  ZMW 6,500<span className="text-sm text-white/50"> / year</span>
-                </p>
-                <ul className="space-y-3 text-white/70 text-sm">
-                  <li>Attendance Management</li>
-                  <li>Student Records</li>
-                  <li>Basic Reports</li>
-                  <li>Email Support</li>
-                </ul>
-              </div>
-
-              {/* SCHOOL TRACK PRO */}
-              <div className="p-8 rounded-2xl border border-blue-500 bg-blue-500/5">
-                <h4 className="font-display text-xl mb-4 text-blue-400">
-                  SchoolTrack Pro
-                </h4>
-                <p className="text-3xl font-bold mb-6">
-                  ZMW 12,000<span className="text-sm text-white/50"> / year</span>
-                </p>
-                <ul className="space-y-3 text-white/70 text-sm">
-                  <li>Advanced Analytics</li>
-                  <li>Automated Term Reports</li>
-                  <li>District Dashboard Sync</li>
-                  <li>Priority Support</li>
-                </ul>
-              </div>
-
-              {/* SCHOOL SERVER OS */}
-              <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
-                <h4 className="font-display text-xl mb-4 text-blue-400">
-                  School Server OS
-                </h4>
-                <p className="text-3xl font-bold mb-6">
-                  ZMW 18,500<span className="text-sm text-white/50"> / once-off</span>
-                </p>
-                <ul className="space-y-3 text-white/70 text-sm">
-                  <li>Raspberry Pi Server Hardware</li>
-                  <li>Offline LMS Deployment</li>
-                  <li>Local Network Setup</li>
-                  <li>Onsite Installation Support</li>
-                </ul>
-              </div>
-
-            </div>
-
-            <p className="text-white/40 mt-10 text-sm">
-              Custom pricing available for district or national deployments.
-            </p>
-          </div>
-        </section>
+        
 
         {/* FINAL CTA */}
         <section className="py-32 px-6 text-center bg-dark-bg-2">
