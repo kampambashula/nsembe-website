@@ -79,8 +79,45 @@ export default function ContactPage() {
           </div>
         </section>
 
-        {/* CONTACT FORM SECTION */}
-        <ContactForm />
+        {/* CONTACT FORM + CARD SECTION */}
+        <section className="py-24 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+          
+          {/* Contact Form */}
+          <div className="bg-dark-bg-3 p-10 rounded-2xl shadow-xl">
+            <ContactForm />
+          </div>
+
+          {/* Contact Card */}
+          <div className="bg-gradient-to-r from-green-light/10 to-cyan-light/10 p-10 rounded-2xl shadow-xl flex flex-col justify-between">
+            <div>
+              <h3 className="font-display text-2xl font-bold text-green-light mb-4">
+                Nsembe Technologies
+              </h3>
+              <p className="text-white/70 mb-2">
+                <strong>Email:</strong>{" "}
+                <a href="mailto:info@nsembe.online" className="text-green-light hover:underline">
+                  info@nsembe.online
+                </a>
+              </p>
+              <p className="text-white/70 mb-4">
+                <strong>Location:</strong> Lusaka, Zambia
+              </p>
+              <p className="text-white/60 leading-relaxed">
+                Reach out to us for inquiries about products, services, pilot
+                deployments, or partnerships. We're ready to collaborate on
+                digital solutions that scale nationally.
+              </p>
+            </div>
+
+            <Link
+              href="mailto:info@nsembe.online"
+              className="mt-6 inline-block px-6 py-3 bg-green-light text-dark-bg font-semibold rounded-xl hover:shadow-glow-green transition text-center"
+            >
+              Reach Out to Us →
+            </Link>
+          </div>
+
+        </section>
 
         {/* FINAL CTA SECTION */}
         <section className="py-28 px-6 text-center">
