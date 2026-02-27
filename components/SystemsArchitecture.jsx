@@ -183,7 +183,7 @@ export default function SystemsArchitecture() {
             fontSize: "0.8rem", letterSpacing: "3px",
             color: COLORS.greenMedium,
             textShadow: `0 0 10px ${COLORS.greenMedium}`,
-          }}>⬡ NEXUS·IO</span>
+          }}>⬡ NSEMBE·IO</span>
           <div style={{ display: "flex", gap: "1.5rem", marginLeft: "auto" }}>
             {["Overview", "Architecture", "Analytics", "Settings"].map(l => (
               <span key={l} style={{
@@ -379,7 +379,7 @@ export default function SystemsArchitecture() {
           {[
             { label: "● SYSTEM ONLINE · 847 DEVICES CONNECTED", color: `${COLORS.cyanLight}55` },
             { label: "LATENCY: 3.1ms · UPTIME: 99.97%",         color: `${COLORS.greenLight}80` },
-            { label: "NEXUS·IO v4.2.1 ● 2024",                  color: `${COLORS.cyanLight}45` },
+            { label: "NSEMBE·IO v4.2.1 ● 2024",                  color: `${COLORS.cyanLight}45` },
           ].map(({ label, color }) => (
             <span key={label} style={{
               fontFamily: "'Share Tech Mono', monospace",
