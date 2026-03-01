@@ -4,6 +4,28 @@ import { useEffect, useRef } from "react";
 
 const platforms = [
   {
+    name: "Mansacore Growth",
+    slug: "mansacore-growth",
+    subtitle: "AI Accounting & Auditing Platform",
+    category: "Finance AI",
+    description:
+      "An intelligent accounting and financial auditing platform powered by AI. Designed for enterprises and institutions that need smart, automated financial oversight and compliance management.",
+    features: [
+      "AI-driven bookkeeping & ledgers",
+      "Automated audit trail generation",
+      "Financial forecasting & insights",
+      "Multi-entity & multi-currency support",
+    ],
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <path d="M5 20l5-5 4 4 5-6 4 3" stroke="#46e9ca" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+        <rect x="4" y="4" width="20" height="18" rx="2" stroke="#46e9ca" strokeWidth="1.5" fill="rgba(70,233,202,0.08)"/>
+        <circle cx="22" cy="8" r="4" fill="rgba(85,234,29,0.2)" stroke="#55ea1d" strokeWidth="1.2"/>
+        <path d="M21 8.5l.7.7 1.5-1.5" stroke="#55ea1d" strokeWidth="1.2" strokeLinecap="round"/>
+      </svg>
+    ),
+  },
+  {
     name: "Clinicae",
     slug: "clinicae",
     subtitle: "Offline Health System",
@@ -50,28 +72,7 @@ const platforms = [
       </svg>
     ),
   },
-  {
-    name: "Mansacore Growth",
-    slug: "mansacore-growth",
-    subtitle: "AI Accounting & Auditing Platform",
-    category: "Finance AI",
-    description:
-      "An intelligent accounting and financial auditing platform powered by AI. Designed for enterprises and institutions that need smart, automated financial oversight and compliance management.",
-    features: [
-      "AI-driven bookkeeping & ledgers",
-      "Automated audit trail generation",
-      "Financial forecasting & insights",
-      "Multi-entity & multi-currency support",
-    ],
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <path d="M5 20l5-5 4 4 5-6 4 3" stroke="#46e9ca" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-        <rect x="4" y="4" width="20" height="18" rx="2" stroke="#46e9ca" strokeWidth="1.5" fill="rgba(70,233,202,0.08)"/>
-        <circle cx="22" cy="8" r="4" fill="rgba(85,234,29,0.2)" stroke="#55ea1d" strokeWidth="1.2"/>
-        <path d="M21 8.5l.7.7 1.5-1.5" stroke="#55ea1d" strokeWidth="1.2" strokeLinecap="round"/>
-      </svg>
-    ),
-  },
+  
   {
     name: "School Server OS",
     slug: "school-server-os",

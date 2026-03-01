@@ -5,9 +5,9 @@ import MansacorePlatform from "../../components/platforms/mansacore-growth";
 import SchoolServerPlatform from "../../components/platforms/school-server-os";
 
 const platformMap = {
+  "mansacore-growth": MansacorePlatform,
   clinicae: ClinicaePlatform,
   savara: SavaraPlatform,
-  "mansacore-growth": MansacorePlatform,
   "school-server-os": SchoolServerPlatform,
 };
 
