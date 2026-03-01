@@ -27,7 +27,7 @@ export default function MarketFocus() {
     <section
       id="markets"
       ref={sectionRef}
-      className="relative py-24 lg:py-32 overflow-hidden"
+      className="relative py-24 lg:py-16 overflow-hidden"
     >
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-start">

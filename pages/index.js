@@ -13,6 +13,7 @@ import SystemsArchitecture from "../components/SystemsArchitecture";
 import TrustBlock from "../components/TrustBlock";
 import OperationalScenarios from "../components/OperationalScenarios";
 import SecurityGovernance from "../components/SecurityGovernance";
+import Trustedby from "../components/TrustedBy";
 
 
 export default function Home() {
@@ -54,6 +55,7 @@ export default function Home() {
 
       <main className="flex flex-col gap-1">
         <HeroVideo />
+        <Trustedby />
         <Philosophy />
         <Slider />
         <Hero />

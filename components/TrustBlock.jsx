@@ -8,7 +8,7 @@ export default function TrustBlock() {
   ];
 
   return (
-    <section className="py-28 px-6">
+    <section className="py-12 px-6">
       <h2 className="font-display font-800 text-4xl mb-16 text-center text-white">Institutional Trust</h2>
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-12">
         {trustItems.map((item) => (

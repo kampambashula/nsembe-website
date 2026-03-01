@@ -117,7 +117,7 @@ export default function Platforms() {
   }, []);
 
   return (
-    <section id="platforms" ref={sectionRef} className="relative py-24 lg:py-32 overflow-hidden">
+    <section id="platforms" ref={sectionRef} className="relative py-12 lg:py-16 overflow-hidden">
       {/* BG accent */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-24 bg-gradient-to-b from-transparent via-cyan-light/30 to-transparent"/>
       <div className="absolute inset-0 bg-dark-bg-2/50"/>

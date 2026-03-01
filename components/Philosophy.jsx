@@ -17,7 +17,7 @@ export default function Philosophy() {
   };
 
   return (
-    <section className="relative py-20 sm:py-24 lg:py-32 px-5 sm:px-6 bg-dark-bg-2 overflow-hidden">
+    <section className="relative py-20 sm:py-24 lg:py-16 px-5 sm:px-6 bg-dark-bg-2 overflow-hidden">
       
       {/* Background accent circles (scaled for mobile) */}
       <div className="absolute top-1/3 left-1/4 w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] lg:w-[400px] lg:h-[400px] rounded-full bg-gradient-to-r from-green-light/20 to-cyan-light/10 blur-3xl -z-10" />

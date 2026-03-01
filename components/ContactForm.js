@@ -41,7 +41,7 @@ export default function ContactForm() {
   };
 
   return (
-    <section id="contact" className="relative py-24 lg:py-32 overflow-hidden">
+    <section id="contact" className="relative py-12 lg:py-16 overflow-hidden">
       <div className="absolute inset-0 bg-dark-bg-2/70" />
 
       <div className="relative max-w-6xl mx-auto px-6">

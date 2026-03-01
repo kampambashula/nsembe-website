@@ -7,7 +7,7 @@ export default function SecurityGovernance() {
   ];
 
   return (
-    <section className="py-28 px-6 text-center">
+    <section className="py-6 px-6 text-center">
       <h2 className="font-display font-800 text-4xl mb-12 text-white">Security & Governance</h2>
       <div className="max-w-3xl mx-auto grid gap-6 text-white/60 text-lg">
         {items.map((i) => (
