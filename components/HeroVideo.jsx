@@ -30,7 +30,7 @@ export default function HeroVideo() {
           <span className="text-cyan-400">Intelligence in Emerging Markets</span>
         </h1>
         <p className="text-white/70 mb-8 text-lg">
-          Offline-first AI platforms powering business, schools, clinics, NGOs, and government institutions.
+          Offline AI for smarter decisions in any environment
         </p>
         <div className="flex justify-center gap-4 flex-wrap">
           <Link
