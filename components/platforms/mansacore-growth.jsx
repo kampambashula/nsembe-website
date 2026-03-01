@@ -120,7 +120,7 @@ export default function MansacoreGrowthPage() {
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
         <h4 className="text-lg font-semibold mb-2">Premium ERP</h4>
         <p className="text-white/50 text-sm mb-6">Full AI-Powered Operational Intelligence</p>
-        <p className="text-white/40 mb-4">ZMW 600,000 – 1,200,000 / Year</p>
+        <p className="text-white/40 mb-4">ZMW 400,000 – 1,200,000 / Year</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
           <li>• Predictive Modeling & AI Dashboards</li>
           <li>• Sector Intelligence Layer</li>
