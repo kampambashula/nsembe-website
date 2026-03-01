@@ -64,114 +64,75 @@ export default function MansacoreGrowthPage() {
           </div>
         </section>
 
-        {/* PRICING SECTION */}
+
+{/* PRICING SECTION */}
 <section className="py-32 px-6 bg-gradient-to-b from-transparent to-black/40">
   <div className="max-w-7xl mx-auto text-center">
     <h2 className="font-display font-800 text-4xl mb-4">
-      Flexible, Transparent & Tailored to Your Organization
+      Nsembe ERP Pricing — Tailored to Your Business
     </h2>
     <p className="text-white/60 mb-16">
-      Mansacore adapts to the needs of every Zambian SME — from solo operators to large enterprises. Pricing depends on your organization’s size, selected modules, and deployment requirements.
+      Choose the solution that matches your operational needs — from basic control for small SMEs to full AI-powered insights for large enterprises.
     </p>
 
-    <div className="grid lg:grid-cols-5 gap-8">
+    <div className="grid lg:grid-cols-3 gap-8">
 
-      {/* SOLO */}
+      {/* STARTER SYSTEM */}
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
-        <h4 className="text-lg font-semibold mb-2">Solo</h4>
-        <p className="text-white/50 text-sm mb-6">Ideal for Individual Operators</p>
-        <p className="text-white/40 mb-4">Starting at ZMW 650/month</p>
+        <h4 className="text-lg font-semibold mb-2">Starter System</h4>
+        <p className="text-white/50 text-sm mb-6">Entry-Level ERP for Small SMEs</p>
+        <p className="text-white/40 mb-4">ZMW 30,000 – 40,000 (One-Time)</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• 1 User</li>
-          <li>• Basic Accounting & Ledgers</li>
-          <li>• Basic Reports</li>
-          <li>• Optional AI Add-Ons</li>
+          <li>• Pre-configured Offline System</li>
+          <li>• Basic Inventory & Workflow Tracking</li>
+          <li>• Standard Dashboards</li>
+          <li>• Local Installation & Minimal Onboarding</li>
         </ul>
         <Link 
           href="/contact" 
           className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
         >
-          Request a Quote
+          Get Started
         </Link>
       </div>
 
-      {/* STARTER */}
-      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
-        <h4 className="text-lg font-semibold mb-2">Starter</h4>
-        <p className="text-white/50 text-sm mb-6">Ideal for Small Formal SMEs</p>
-        <p className="text-white/40 mb-4">Starting at ZMW 1,200/month</p>
-        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• Up to 5 Users</li>
-          <li>• IFRS-Compliant Accounting</li>
-          <li>• Financial Statements & Dashboards</li>
-          <li>• Optional AI Add-Ons</li>
-        </ul>
-        <Link 
-          href="/contact" 
-          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
-        >
-          Request a Quote
-        </Link>
-      </div>
-
-      {/* PROFESSIONAL */}
+      {/* LOWER BAND */}
       <div className="bg-cyan-500/10 border-2 border-cyan-400 rounded-2xl p-8 backdrop-blur scale-105 shadow-xl">
-        <span className="text-xs uppercase tracking-widest text-cyan-400">Most Popular</span>
-        <h4 className="text-lg font-semibold mb-2 mt-2 text-cyan-400">Professional</h4>
-        <p className="text-white/50 text-sm mb-6">Ideal for Growing Businesses</p>
-        <p className="text-white/40 mb-4">Starting at ZMW 3,200/month</p>
+        <h4 className="text-lg font-semibold mb-2 mt-2 text-cyan-400">Lower Band ERP</h4>
+        <p className="text-white/50 text-sm mb-6">Full Operational Control, Non-AI</p>
+        <p className="text-white/40 mb-4">ZMW 40,000 – 90,000 / Year</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• 6–25 Users</li>
-          <li>• Accounting + Inventory</li>
-          <li>• Financial Dashboards</li>
-          <li>• AI Forecasting Included</li>
-          <li>• Priority Support</li>
+          <li>• Cluster-Specific Modules (Production, Distribution, Logistics)</li>
+          <li>• Inventory & Stock Movement Tracking</li>
+          <li>• Production / Dispatch Dashboards</li>
+          <li>• Offline Deployment</li>
+          <li>• One-Time Installation or Annual Fee</li>
         </ul>
         <Link 
           href="/contact" 
           className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
         >
-          Request a Quote
+          Request Consultation
         </Link>
       </div>
 
-      {/* BUSINESS PLUS */}
+      {/* PREMIUM */}
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
-        <h4 className="text-lg font-semibold mb-2">Business Plus</h4>
-        <p className="text-white/50 text-sm mb-6">Ideal for Expanding SMEs</p>
-        <p className="text-white/40 mb-4">Custom Quote</p>
+        <h4 className="text-lg font-semibold mb-2">Premium ERP</h4>
+        <p className="text-white/50 text-sm mb-6">Full AI-Powered Operational Intelligence</p>
+        <p className="text-white/40 mb-4">ZMW 600,000 – 1,200,000 / Year</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• 25–60 Users</li>
-          <li>• Full ERP Suite</li>
-          <li>• Multi-Entity Support</li>
-          <li>• Advanced Analytics</li>
-          <li>• Semi-Dedicated Support</li>
+          <li>• Predictive Modeling & AI Dashboards</li>
+          <li>• Sector Intelligence Layer</li>
+          <li>• Decision Simulations & Scenario Planning</li>
+          <li>• Workshops & Leadership Insight Sessions</li>
+          <li>• Multi-Cluster Operational Insights</li>
         </ul>
         <Link 
           href="/contact" 
           className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
         >
-          Request a Quote
-        </Link>
-      </div>
-
-      {/* ENTERPRISE */}
-      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
-        <h4 className="text-lg font-semibold mb-2">Enterprise</h4>
-        <p className="text-white/50 text-sm mb-6">Ideal for Large Operations</p>
-        <p className="text-white/40 mb-4">Custom Quote</p>
-        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• 60+ Users</li>
-          <li>• Dedicated Account Manager</li>
-          <li>• SLA & Custom Integrations</li>
-          <li>• Onsite Training</li>
-          <li>• Strategic AI Intelligence</li>
-        </ul>
-        <Link 
-          href="/contact" 
-          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
-        >
-          Request a Quote
+          Request Consultation
         </Link>
       </div>
 
@@ -179,7 +140,98 @@ export default function MansacoreGrowthPage() {
   </div>
 </section>
 
+       {/* PRICING SECTION */}
+<section className="py-32 px-6 bg-gradient-to-b from-transparent to-black/40">
+  <div className="max-w-7xl mx-auto text-center">
+    <h2 className="font-display font-800 text-4xl mb-4">
+       AI ERP Pricing — Tailored to Your Organization
+    </h2>
+    <p className="text-white/60 mb-16">
+      Mansacore delivers operational intelligence for industrial and mid-sized businesses in Zambia. Pricing reflects operational impact, sector complexity, and strategic value.
+    </p>
 
+    <div className="grid lg:grid-cols-4 gap-8">
+
+      {/* STARTER SYSTEM */}
+      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
+        <h4 className="text-lg font-semibold mb-2">Starter System</h4>
+        <p className="text-white/50 text-sm mb-6">One-Time Setup for Small Formal SMEs</p>
+        <p className="text-white/40 mb-4">ZMW 50,000 – 75,000 (One-Time)</p>
+        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
+          <li>• Pre-configured Offline System</li>
+          <li>• Basic Inventory or Workflow Tracking</li>
+          <li>• Local Deployment</li>
+          <li>• No Ongoing Support</li>
+        </ul>
+        <Link 
+          href="/contact" 
+          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+        >
+          Get Started
+        </Link>
+      </div>
+
+      {/* PROFESSIONAL */}
+      <div className="bg-cyan-500/10 border-2 border-cyan-400 rounded-2xl p-8 backdrop-blur scale-105 shadow-xl">
+        <span className="text-xs uppercase tracking-widest text-cyan-400">Core Focus</span>
+        <h4 className="text-lg font-semibold mb-2 mt-2 text-cyan-400">Professional</h4>
+        <p className="text-white/50 text-sm mb-6">Full AI Insight Engine</p>
+        <p className="text-white/40 mb-4">ZMW 180,000 – 350,000 / year</p>
+        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
+          <li>• Cluster Scoring & Behavioral Segmentation</li>
+          <li>• Trend Detection & Decision Dashboards</li>
+          <li>• Use-Case Customization</li>
+          <li>• Quarterly Insight Reviews</li>
+        </ul>
+        <Link 
+          href="/contact" 
+          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+        >
+          Request Consultation
+        </Link>
+      </div>
+
+      {/* PREMIUM */}
+      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
+        <h4 className="text-lg font-semibold mb-2">Premium</h4>
+        <p className="text-white/50 text-sm mb-6">Full Decision Intelligence System</p>
+        <p className="text-white/40 mb-4">ZMW 600,000 – 1,200,000 / year</p>
+        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
+          <li>• Predictive Modeling</li>
+          <li>• Sector Intelligence Layer</li>
+          <li>• Policy & Growth Dashboards</li>
+          <li>• Workshops & Leadership Insight Sessions</li>
+        </ul>
+        <Link 
+          href="/contact" 
+          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+        >
+          Request Consultation
+        </Link>
+      </div>
+
+      {/* ENTERPRISE */}
+      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
+        <h4 className="text-lg font-semibold mb-2">Enterprise</h4>
+        <p className="text-white/50 text-sm mb-6">Custom Institutional AI Platform</p>
+        <p className="text-white/40 mb-4">—</p>
+        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
+          <li>• Multi-Layer Deployment</li>
+          <li>• Custom Models & Integrations</li>
+          <li>• Policy Simulation & Strategic Insights</li>
+          <li>• Ecosystem Intelligence</li>
+        </ul>
+        <Link 
+          href="/contact" 
+          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+        >
+          Request Enterprise Design
+        </Link>
+      </div>
+
+    </div>
+  </div>
+</section>
 
         {/* FINAL CTA */}
         <section className="py-24 px-6 text-center">
