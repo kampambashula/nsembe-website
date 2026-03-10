@@ -68,11 +68,10 @@ export default function ContactPage() {
 
               <div className="p-6 border border-white/10 rounded-2xl bg-dark-bg-3/40">
                 <h3 className="font-display text-lg text-green-light mb-3">
-                  NGOs & Donor Agencies
+                  SMES and Large Business
                 </h3>
                 <p className="text-white/60 text-sm leading-relaxed">
-                  Data systems for program monitoring, evaluation frameworks,
-                  and infrastructure solutions in low-resource environments.
+                  Management systems and entrerpise resource planning infrastructure for low-resource environments.
                 </p>
               </div>
             </div>
