@@ -21,7 +21,7 @@ export default function MansacoreGrowthPage() {
               <span className="text-cyan-400">Enterprises</span>
             </h1>
             <p className="text-white/60 max-w-2xl mt-8 text-lg leading-relaxed">
-              AI-powered bookkeeping, auditing, and financial forecasting platform for organizations requiring automated financial intelligence.
+              AI-powered bookkeeping, auditing, and financial forecasting platform for organizations requiring automated financial intelligence, offline access, and seamless integration with ZRA.
             </p>
           </div>
         </section>
@@ -36,6 +36,7 @@ export default function MansacoreGrowthPage() {
                 <li>• Automated audit trail</li>
                 <li>• Financial forecasting & insights</li>
                 <li>• Multi-entity & multi-currency support</li>
+                <li>• Offline operation & optional ZRA integration</li>
               </ul>
             </div>
             <Image
@@ -64,195 +65,104 @@ export default function MansacoreGrowthPage() {
           </div>
         </section>
 
+        {/* PRICING SECTION */}
+        <section className="py-32 px-6 bg-gradient-to-b from-transparent to-black/40">
+          <div className="max-w-7xl mx-auto text-center">
+            <h2 className="font-display font-800 text-4xl mb-4">
+              Nsembe ERP — Subscription & Setup Fees
+            </h2>
+            <p className="text-white/60 mb-16">
+              Choose a plan that fits your business size and needs. Monthly subscriptions include updates, cloud hosting, offline support, and ongoing assistance. One-time setup fees cover installation, configuration, and training.
+            </p>
 
-{/* PRICING SECTION */}
-<section className="py-32 px-6 bg-gradient-to-b from-transparent to-black/40">
-  <div className="max-w-7xl mx-auto text-center">
-    <h2 className="font-display font-800 text-4xl mb-4">
-      Nsembe ERP — Affordable SaaS Pricing
-    </h2>
-    <p className="text-white/60 mb-16">
-      Choose a plan that fits your business size and needs. Monthly subscriptions include hosting, updates, and ongoing support.
-    </p>
+            <div className="grid lg:grid-cols-3 gap-8">
 
-    <div className="grid lg:grid-cols-3 gap-8">
+              {/* STARTER */}
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
+                <h4 className="text-lg font-semibold mb-2">Starter</h4>
+                <p className="text-white/50 text-sm mb-6">Small SMEs & New Businesses</p>
+                <p className="text-white/40 mb-2">ZMW 350 / month</p>
+                <p className="text-white/40 text-sm mb-4">One-time Setup: ZMW 2,500</p>
+                <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
+                  <li>• Basic Financial Management</li>
+                  <li>• Core Accounting & Inventory</li>
+                  <li>• Standard Reporting Dashboards</li>
+                  <li>• Offline Access & ZRA Integration</li>
+                </ul>
+                <Link 
+                  href="/contact" 
+                  className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+                >
+                  Get Started
+                </Link>
+              </div>
 
-      {/* STARTER */}
-      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
-        <h4 className="text-lg font-semibold mb-2">Starter</h4>
-        <p className="text-white/50 text-sm mb-6">Small SMEs & New Businesses</p>
-        <p className="text-white/40 mb-4">ZMW 350 / month</p>
-        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• Basic Financial Management</li>
-          <li>• Core Accounting & Inventory</li>
-          <li>• Standard Reporting Dashboards</li>
-          <li>• Offline Access</li>
-        </ul>
-        <Link 
-          href="/contact" 
-          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
-        >
-          Get Started
-        </Link>
-      </div>
+              {/* PROFESSIONAL */}
+              <div className="bg-cyan-500/10 border-2 border-cyan-400 rounded-2xl p-8 backdrop-blur scale-105 shadow-xl">
+                <h4 className="text-lg font-semibold mb-2 mt-2 text-cyan-400">Professional</h4>
+                <p className="text-white/50 text-sm mb-6">Growing SMEs & Multi-User Teams</p>
+                <p className="text-white/40 mb-2">ZMW 1,500 / month</p>
+                <p className="text-white/40 text-sm mb-4">One-time Setup: ZMW 7,500</p>
+                <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
+                  <li>• Full Operational Modules</li>
+                  <li>• Multi-User Management (up to 25 users)</li>
+                  <li>• Advanced Reporting & Dashboards</li>
+                  <li>• Continuous Updates</li>
+                  <li>• Monthly Support Included</li>
+                </ul>
+                <Link 
+                  href="/contact" 
+                  className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+                >
+                  Request Consultation
+                </Link>
+              </div>
 
-      {/* PROFESSIONAL */}
-      <div className="bg-cyan-500/10 border-2 border-cyan-400 rounded-2xl p-8 backdrop-blur scale-105 shadow-xl">
-        <h4 className="text-lg font-semibold mb-2 mt-2 text-cyan-400">Professional</h4>
-        <p className="text-white/50 text-sm mb-6">Growing SMEs & Multi-User Teams</p>
-        <p className="text-white/40 mb-4">ZMW 1,500 / month</p>
-        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• Full Operational Modules</li>
-          <li>• Multi-User Management (up to 25 users)</li>
-          <li>• Advanced Reporting & Dashboards</li>
-          <li>• Continuous Updates</li>
-          <li>• Monthly Support Included</li>
-        </ul>
-        <Link 
-          href="/contact" 
-          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
-        >
-          Request Consultation
-        </Link>
-      </div>
+              {/* INSTITUTIONAL */}
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
+                <h4 className="text-lg font-semibold mb-2">Institutional</h4>
+                <p className="text-white/50 text-sm mb-6">Large Institutions & Enterprise Deployment</p>
+                <p className="text-white/40 mb-2">ZMW 36,000 / year</p>
+                <p className="text-white/40 text-sm mb-4">One-time Setup: ZMW 18,000+</p>
+                <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
+                  <li>• Unlimited Users</li>
+                  <li>• Full ERP & AI Insights Modules</li>
+                  <li>• Deployment & Setup Support Included</li>
+                  <li>• Quarterly Analytics & Strategy Workshops</li>
+                  <li>• Advanced Dashboards & Reporting</li>
+                </ul>
+                <Link 
+                  href="/contact" 
+                  className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+                >
+                  Request Consultation
+                </Link>
+              </div>
 
-      {/* INSTITUTIONAL */}
-      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
-        <h4 className="text-lg font-semibold mb-2">Institutional</h4>
-        <p className="text-white/50 text-sm mb-6">Large Institutions & Enterprise Deployment</p>
-        <p className="text-white/40 mb-4">ZMW 36,000 / year</p>
-        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• Unlimited Users</li>
-          <li>• Full ERP & AI Insights Modules</li>
-          <li>• Deployment & Setup Support Included</li>
-          <li>• Quarterly Analytics & Strategy Workshops</li>
-          <li>• Advanced Dashboards & Reporting</li>
-        </ul>
-        <Link 
-          href="/contact" 
-          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
-        >
-          Request Consultation
-        </Link>
-      </div>
+            </div>
+          </div>
+        </section>
 
-    </div>
-  </div>
-</section>
-
-{/* OPTIONAL ADD-ONS */}
-<section className="py-24 px-6 text-center bg-dark-bg-2">
-  <div className="max-w-5xl mx-auto">
-    <h3 className="font-display font-800 text-3xl mb-8 text-white">Optional Add-Ons</h3>
-    <div className="grid md:grid-cols-3 gap-6 text-left text-white/70 text-lg">
-      <div className="bg-dark-bg-3 p-6 rounded-2xl border border-white/10 hover:shadow-lg transition">
-        <h4 className="font-semibold text-cyan-400 mb-2">AI Analytics Module</h4>
-        <p>ZMW 500 / month</p>
-      </div>
-      <div className="bg-dark-bg-3 p-6 rounded-2xl border border-white/10 hover:shadow-lg transition">
-        <h4 className="font-semibold text-cyan-400 mb-2">Advanced Dashboards</h4>
-        <p>ZMW 350 / month</p>
-      </div>
-      <div className="bg-dark-bg-3 p-6 rounded-2xl border border-white/10 hover:shadow-lg transition">
-        <h4 className="font-semibold text-cyan-400 mb-2">Custom Integrations</h4>
-        <p>ZMW 5,000 one-time</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-{/* AI ERP SECTION */}
-<section className="py-32 px-6 bg-gradient-to-b from-transparent to-black/40">
-  <div className="max-w-7xl mx-auto text-center">
-    <h2 className="font-display font-800 text-4xl mb-4">
-       AI ERP — Monthly SaaS Plans
-    </h2>
-    <p className="text-white/60 mb-16">
-      Operational intelligence delivered as an ongoing SaaS subscription. All plans include updates, cloud hosting, and support.
-    </p>
-
-    <div className="grid lg:grid-cols-4 gap-8">
-
-      {/* STARTER */}
-      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
-        <h4 className="text-lg font-semibold mb-2">Starter</h4>
-        <p className="text-white/50 text-sm mb-6">Small SME Cloud ERP</p>
-        <p className="text-white/40 mb-4">ZMW 1,800 / month</p>
-        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• Pre-configured Online ERP</li>
-          <li>• Basic Inventory or Workflow Tracking</li>
-          <li>• Online Deployment</li>
-          <li>• Monthly SaaS Support</li>
-        </ul>
-        <Link 
-          href="/contact" 
-          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
-        >
-          Get Started
-        </Link>
-      </div>
-
-      {/* PROFESSIONAL */}
-      <div className="bg-cyan-500/10 border-2 border-cyan-400 rounded-2xl p-8 backdrop-blur scale-105 shadow-xl">
-        <span className="text-xs uppercase tracking-widest text-cyan-400">Core Focus</span>
-        <h4 className="text-lg font-semibold mb-2 mt-2 text-cyan-400">Professional</h4>
-        <p className="text-white/50 text-sm mb-6">Full AI Insight Engine</p>
-        <p className="text-white/40 mb-4">ZMW 3,800 / month</p>
-        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• Cluster Scoring & Behavioral Segmentation</li>
-          <li>• Trend Detection & Decision Dashboards</li>
-          <li>• Use-Case Configuration</li>
-          <li>• Quarterly Insight Reviews</li>
-        </ul>
-        <Link 
-          href="/contact" 
-          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
-        >
-          Request Consultation
-        </Link>
-      </div>
-
-      {/* PREMIUM */}
-      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
-        <h4 className="text-lg font-semibold mb-2">Premium</h4>
-        <p className="text-white/50 text-sm mb-6">Advanced Decision Intelligence</p>
-        <p className="text-white/40 mb-4">ZMW 7,500 / month</p>
-        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• Predictive Modeling</li>
-          <li>• Sector Intelligence Layer</li>
-          <li>• Policy & Growth Dashboards</li>
-          <li>• Workshops & Leadership Insight Sessions</li>
-        </ul>
-        <Link 
-          href="/contact" 
-          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
-        >
-          Request Consultation
-        </Link>
-      </div>
-
-      {/* ENTERPRISE */}
-      <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
-        <h4 className="text-lg font-semibold mb-2">Enterprise</h4>
-        <p className="text-white/50 text-sm mb-6">Custom Institutional AI Platform</p>
-        <p className="text-white/40 mb-4">Contact for Pricing</p>
-        <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• Multi-Layer Deployment</li>
-          <li>• Custom Models & Integrations</li>
-          <li>• Policy Simulation & Strategic Insights</li>
-          <li>• Ecosystem Intelligence</li>
-        </ul>
-        <Link 
-          href="/contact" 
-          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
-        >
-          Request Enterprise Design
-        </Link>
-      </div>
-
-    </div>
-  </div>
-</section>
+        {/* OPTIONAL ADD-ONS */}
+        <section className="py-24 px-6 text-center bg-dark-bg-2">
+          <div className="max-w-5xl mx-auto">
+            <h3 className="font-display font-800 text-3xl mb-8 text-white">Optional Add-Ons</h3>
+            <div className="grid md:grid-cols-3 gap-6 text-left text-white/70 text-lg">
+              <div className="bg-dark-bg-3 p-6 rounded-2xl border border-white/10 hover:shadow-lg transition">
+                <h4 className="font-semibold text-cyan-400 mb-2">AI Analytics Module</h4>
+                <p>ZMW 500 / month</p>
+              </div>
+              <div className="bg-dark-bg-3 p-6 rounded-2xl border border-white/10 hover:shadow-lg transition">
+                <h4 className="font-semibold text-cyan-400 mb-2">Advanced Dashboards</h4>
+                <p>ZMW 350 / month</p>
+              </div>
+              <div className="bg-dark-bg-3 p-6 rounded-2xl border border-white/10 hover:shadow-lg transition">
+                <h4 className="font-semibold text-cyan-400 mb-2">Custom Integrations</h4>
+                <p>ZMW 5,000 one-time</p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* FINAL CTA */}
         <section className="py-24 px-6 text-center">
@@ -263,11 +173,11 @@ export default function MansacoreGrowthPage() {
             Reduce manual errors, increase transparency, and gain actionable insights.
           </p>
           <Link 
-          href="/contact" 
-          className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
-        >
-          Request a Quote
-        </Link>
+            href="/contact" 
+            className="mt-6 inline-block px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
+          >
+            Request a Quote
+          </Link>
         </section>
 
       </div>

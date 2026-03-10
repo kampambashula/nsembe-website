@@ -98,7 +98,7 @@ export default function ClinicaePage() {
           <div className="max-w-6xl mx-auto text-center">
 
             <h3 className="font-display font-800 text-4xl mb-16">
-              SaaS Pricing for Clinicae
+              Pricing for Clinicae
             </h3>
 
             <div className="grid md:grid-cols-3 gap-10">

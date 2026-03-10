@@ -90,7 +90,7 @@ export default function VillageBanking() {
           <div className="max-w-7xl mx-auto text-center">
 
             <h3 className="font-display font-800 text-4xl mb-16">
-              Village Banking System — SaaS Pricing
+              Village Banking System — Pricing
             </h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
