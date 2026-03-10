@@ -81,7 +81,7 @@ export default function MansacoreGrowthPage() {
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
         <h4 className="text-lg font-semibold mb-2">Starter System</h4>
         <p className="text-white/50 text-sm mb-6">Entry-Level ERP for Small SMEs</p>
-        <p className="text-white/40 mb-4">ZMW 1,500 / month</p>
+        <p className="text-white/40 mb-4">ZMW 1,300 / month</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
           <li>• Pre-configured Online ERP</li>
           <li>• Basic Inventory & Workflow Tracking</li>

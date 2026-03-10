@@ -105,7 +105,7 @@ export default function AssociationManagement() {
                 </p>
 
                 <ul className="space-y-3 text-white/70 text-sm">
-                  <li>Up to 100 members</li>
+                  <li>Up to 1000 members</li>
                   <li>Membership & event management</li>
                   <li>Fee tracking & basic reporting</li>
                   <li>Email support</li>
@@ -131,7 +131,7 @@ export default function AssociationManagement() {
                 </p>
 
                 <ul className="space-y-3 text-white/70 text-sm">
-                  <li>Up to 500 members</li>
+                  <li>Up to 2000 members</li>
                   <li>Automated event notifications</li>
                   <li>Fee & subscription management</li>
                   <li>Advanced dashboards & analytics</li>

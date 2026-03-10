@@ -26,6 +26,31 @@ const platforms = [
       </svg>
     ),
   },
+{
+  name: "Member Management System",
+  slug: "association-management",
+  subtitle: "Association & Chamber Platform",
+  category: "AMS",
+  description:
+    "A complete association management platform designed for chambers of commerce, professional bodies, and industry associations to manage members, events, subscriptions, and policy engagement.",
+  features: [
+    "Member registry and profiles",
+    "Subscription and membership dues management",
+    "Event management and registrations",
+    "Committee and governance tracking",
+    "Policy engagement and communication tools",
+    "Reporting dashboards for leadership",
+  ],
+  icon: (
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+      <rect x="4" y="6" width="20" height="16" rx="2" stroke="#46e9ca" strokeWidth="1.8" fill="rgba(70,233,202,0.1)"/>
+      <path d="M4 11h20" stroke="#46e9ca" strokeWidth="1.5"/>
+      <circle cx="9" cy="16" r="2" fill="#46e9ca"/>
+      <circle cx="14" cy="16" r="2" fill="#46e9ca"/>
+      <circle cx="19" cy="16" r="2" fill="#46e9ca"/>
+    </svg>
+  ),
+},
 
   // Healthcare
   {

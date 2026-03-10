@@ -42,7 +42,7 @@ export default function VillageBanking() {
             {/* MOCKUP IMAGE */}
             <div>
               <Image
-                src="/images/systems/village-banking.png"
+                src="/images/platforms/4.png"
                 alt="Village Banking Dashboard Mockup"
                 width={900}
                 height={600}
@@ -75,7 +75,7 @@ export default function VillageBanking() {
 
             <div>
               <Image
-                src="/images/systems/village-banking-analytics.png"
+                src="/images/platforms/6.png"
                 alt="Village Banking Analytics"
                 width={800}
                 height={500}
@@ -101,7 +101,7 @@ export default function VillageBanking() {
                   Basic Plan
                 </h4>
                 <p className="text-3xl font-bold mb-6">
-                  ZMW 1,200
+                  ZMW 850
                   <span className="text-sm text-white/50"> / month</span>
                 </p>
 
@@ -111,7 +111,7 @@ export default function VillageBanking() {
                   <li>Contribution tracking</li>
                   <li>Basic financial dashboards</li>
                   <li>Email support</li>
-                  <li>Offline & online access</li>
+                  <li>Offline access</li>
                 </ul>
 
                 <Link 
@@ -128,7 +128,7 @@ export default function VillageBanking() {
                   Standard Plan
                 </h4>
                 <p className="text-3xl font-bold mb-6">
-                  ZMW 3,000
+                  ZMW 2,850
                   <span className="text-sm text-white/50"> / month</span>
                 </p>
 
