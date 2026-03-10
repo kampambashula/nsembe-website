@@ -85,101 +85,110 @@ export default function AssociationManagement() {
         </section>
 
         {/* PRICING SECTION */}
-        <section className="py-32 px-6 bg-dark-bg">
-          <div className="max-w-7xl mx-auto text-center">
+<section className="py-32 px-6 bg-dark-bg">
+  <div className="max-w-7xl mx-auto text-center">
 
-            <h3 className="font-display font-800 text-4xl mb-16">
-              Association Management — SaaS Pricing
-            </h3>
+    <h3 className="font-display font-800 text-4xl mb-16">
+      Association Management — SaaS Pricing
+    </h3>
 
-            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 
-              {/* BASIC PLAN */}
-              <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
-                <h4 className="font-display text-xl mb-4 text-blue-400">
-                  Basic Plan
-                </h4>
-                <p className="text-3xl font-bold mb-6">
-                  ZMW 1,500
-                  <span className="text-sm text-white/50"> / month</span>
-                </p>
+      {/* BASIC PLAN */}
+      <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
+        <h4 className="font-display text-xl mb-4 text-blue-400">
+          Basic Plan
+        </h4>
+        <p className="text-3xl font-bold mb-2">
+          ZMW 1,200
+          <span className="text-sm text-white/50"> / month</span>
+        </p>
+        <p className="text-sm text-white/50 mb-6">
+          One-time Setup Fee: ZMW 1,500
+        </p>
 
-                <ul className="space-y-3 text-white/70 text-sm">
-                  <li>Up to 1000 members</li>
-                  <li>Membership & event management</li>
-                  <li>Fee tracking & basic reporting</li>
-                  <li>Email support</li>
-                  <li>Offline & online sync</li>
-                </ul>
+        <ul className="space-y-3 text-white/70 text-sm">
+          <li>Up to 1000 members</li>
+          <li>Membership & event management</li>
+          <li>Fee tracking & basic reporting</li>
+          <li>Email support</li>
+          <li>Offline & online sync</li>
+        </ul>
 
-                <Link 
-                  href="/contact"
-                  className="mt-6 inline-block px-6 py-3 bg-blue-500 rounded-xl font-semibold hover:bg-blue-600 transition"
-                >
-                  Request a Quote
-                </Link>
-              </div>
+        <Link 
+          href="/contact"
+          className="mt-6 inline-block px-6 py-3 bg-blue-500 rounded-xl font-semibold hover:bg-blue-600 transition"
+        >
+          Request a Quote
+        </Link>
+      </div>
 
-              {/* STANDARD PLAN */}
-              <div className="p-8 rounded-2xl border border-blue-500 bg-blue-500/5">
-                <h4 className="font-display text-xl mb-4 text-blue-400">
-                  Standard Plan
-                </h4>
-                <p className="text-3xl font-bold mb-6">
-                  ZMW 3,800
-                  <span className="text-sm text-white/50"> / month</span>
-                </p>
+      {/* STANDARD PLAN */}
+      <div className="p-8 rounded-2xl border border-blue-500 bg-blue-500/5">
+        <h4 className="font-display text-xl mb-4 text-blue-400">
+          Standard Plan
+        </h4>
+        <p className="text-3xl font-bold mb-2">
+          ZMW 2,500
+          <span className="text-sm text-white/50"> / month</span>
+        </p>
+        <p className="text-sm text-white/50 mb-6">
+          One-time Setup Fee: ZMW 4,000
+        </p>
 
-                <ul className="space-y-3 text-white/70 text-sm">
-                  <li>Up to 2000 members</li>
-                  <li>Automated event notifications</li>
-                  <li>Fee & subscription management</li>
-                  <li>Advanced dashboards & analytics</li>
-                  <li>Priority support</li>
-                </ul>
+        <ul className="space-y-3 text-white/70 text-sm">
+          <li>Up to 2000 members</li>
+          <li>Automated event notifications</li>
+          <li>Fee & subscription management</li>
+          <li>Advanced dashboards & analytics</li>
+          <li>Priority support & onboarding</li>
+        </ul>
 
-                <Link 
-                  href="/contact"
-                  className="mt-6 inline-block px-6 py-3 bg-blue-500 rounded-xl font-semibold hover:bg-blue-600 transition"
-                >
-                  Request a Quote
-                </Link>
-              </div>
+        <Link 
+          href="/contact"
+          className="mt-6 inline-block px-6 py-3 bg-blue-500 rounded-xl font-semibold hover:bg-blue-600 transition"
+        >
+          Request a Quote
+        </Link>
+      </div>
 
-              {/* ENTERPRISE PLAN */}
-              <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
-                <h4 className="font-display text-xl mb-4 text-blue-400">
-                  Enterprise Plan
-                </h4>
-                <p className="text-3xl font-bold mb-6">
-                  ZMW 7,000
-                  <span className="text-sm text-white/50"> / month</span>
-                </p>
+      {/* ENTERPRISE PLAN */}
+      <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
+        <h4 className="font-display text-xl mb-4 text-blue-400">
+          Enterprise Plan
+        </h4>
+        <p className="text-3xl font-bold mb-2">
+          ZMW 7,000
+          <span className="text-sm text-white/50"> / month</span>
+        </p>
+        <p className="text-sm text-white/50 mb-6">
+          One-time Setup Fee: ZMW 23,500
+        </p>
 
-                <ul className="space-y-3 text-white/70 text-sm">
-                  <li>Unlimited members & associations</li>
-                  <li>Custom workflows & integrations</li>
-                  <li>Dedicated account manager & onboarding</li>
-                  <li>Advanced analytics & KPI dashboards</li>
-                  <li>Multi-branch or multi-region deployments</li>
-                </ul>
+        <ul className="space-y-3 text-white/70 text-sm">
+          <li>Unlimited members & associations</li>
+          <li>Custom workflows & integrations</li>
+          <li>Dedicated account manager & onboarding</li>
+          <li>Advanced analytics & KPI dashboards</li>
+          <li>Multi-branch or multi-region deployments</li>
+        </ul>
 
-                <Link 
-                  href="/contact"
-                  className="mt-6 inline-block px-6 py-3 bg-blue-500 rounded-xl font-semibold hover:bg-blue-600 transition"
-                >
-                  Request a Quote
-                </Link>
-              </div>
+        <Link 
+          href="/contact"
+          className="mt-6 inline-block px-6 py-3 bg-blue-500 rounded-xl font-semibold hover:bg-blue-600 transition"
+        >
+          Request a Quote
+        </Link>
+      </div>
 
-            </div>
+    </div>
 
-            <p className="text-white/40 mt-10 text-sm">
-              Optional integration with ERP, CRM, or member portals available upon request.
-            </p>
+    <p className="text-white/40 mt-10 text-sm">
+      Optional integration with ERP, CRM, or member portals available upon request.
+    </p>
 
-          </div>
-        </section>
+  </div>
+</section>
 
         {/* CTA SECTION */}
         <section className="py-32 px-6 text-center bg-dark-bg-2">
