@@ -69,10 +69,10 @@ export default function MansacoreGrowthPage() {
 <section className="py-32 px-6 bg-gradient-to-b from-transparent to-black/40">
   <div className="max-w-7xl mx-auto text-center">
     <h2 className="font-display font-800 text-4xl mb-4">
-      Nsembe ERP Pricing — Tailored to Your Business
+      Nsembe ERP — Affordable SaaS Pricing
     </h2>
     <p className="text-white/60 mb-16">
-      Choose the solution that matches your operational needs — from basic control for small SMEs to full AI-powered insights for large enterprises.
+      Choose a plan that fits your business size and needs. Monthly subscriptions include hosting, updates, and ongoing support.
     </p>
 
     <div className="grid lg:grid-cols-3 gap-8">
@@ -81,12 +81,12 @@ export default function MansacoreGrowthPage() {
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
         <h4 className="text-lg font-semibold mb-2">Starter System</h4>
         <p className="text-white/50 text-sm mb-6">Entry-Level ERP for Small SMEs</p>
-        <p className="text-white/40 mb-4">ZMW 30,000 – 40,000 (One-Time)</p>
+        <p className="text-white/40 mb-4">ZMW 1,500 / month</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• Pre-configured Offline System</li>
+          <li>• Pre-configured Online ERP</li>
           <li>• Basic Inventory & Workflow Tracking</li>
-          <li>• Standard Dashboards</li>
-          <li>• Local Installation & Minimal Onboarding</li>
+          <li>• Standard Dashboards & Reports</li>
+          <li>• Onboarding & Minimal Training</li>
         </ul>
         <Link 
           href="/contact" 
@@ -98,15 +98,15 @@ export default function MansacoreGrowthPage() {
 
       {/* LOWER BAND */}
       <div className="bg-cyan-500/10 border-2 border-cyan-400 rounded-2xl p-8 backdrop-blur scale-105 shadow-xl">
-        <h4 className="text-lg font-semibold mb-2 mt-2 text-cyan-400">Lower Band ERP</h4>
-        <p className="text-white/50 text-sm mb-6">Full Operational Control, Non-AI</p>
-        <p className="text-white/40 mb-4">ZMW 40,000 – 90,000 / Year</p>
+        <h4 className="text-lg font-semibold mb-2 mt-2 text-cyan-400">Professional System</h4>
+        <p className="text-white/50 text-sm mb-6">Full Operational Control</p>
+        <p className="text-white/40 mb-4">ZMW 3,500 / month</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
           <li>• Cluster-Specific Modules (Production, Distribution, Logistics)</li>
           <li>• Inventory & Stock Movement Tracking</li>
           <li>• Production / Dispatch Dashboards</li>
-          <li>• Offline Deployment</li>
-          <li>• One-Time Installation or Annual Fee</li>
+          <li>• Online Deployment & Continuous Updates</li>
+          <li>• Monthly SaaS Support Included</li>
         </ul>
         <Link 
           href="/contact" 
@@ -119,13 +119,13 @@ export default function MansacoreGrowthPage() {
       {/* PREMIUM */}
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
         <h4 className="text-lg font-semibold mb-2">Premium ERP</h4>
-        <p className="text-white/50 text-sm mb-6">Full AI-Powered Operational Intelligence</p>
-        <p className="text-white/40 mb-4">ZMW 400,000 – 1,200,000 / Year</p>
+        <p className="text-white/50 text-sm mb-6">Advanced AI-Powered Operational Insights</p>
+        <p className="text-white/40 mb-4">ZMW 7,000 / month</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
           <li>• Predictive Modeling & AI Dashboards</li>
           <li>• Sector Intelligence Layer</li>
           <li>• Decision Simulations & Scenario Planning</li>
-          <li>• Workshops & Leadership Insight Sessions</li>
+          <li>• Quarterly Insight Workshops</li>
           <li>• Multi-Cluster Operational Insights</li>
         </ul>
         <Link 
@@ -140,28 +140,28 @@ export default function MansacoreGrowthPage() {
   </div>
 </section>
 
-       {/* PRICING SECTION */}
+{/* AI ERP SECTION */}
 <section className="py-32 px-6 bg-gradient-to-b from-transparent to-black/40">
   <div className="max-w-7xl mx-auto text-center">
     <h2 className="font-display font-800 text-4xl mb-4">
-       AI ERP Pricing — Tailored to Your Organization
+       AI ERP — Monthly SaaS Plans
     </h2>
     <p className="text-white/60 mb-16">
-      Mansacore delivers operational intelligence for industrial and mid-sized businesses in Zambia. Pricing reflects operational impact, sector complexity, and strategic value.
+      Operational intelligence delivered as an ongoing SaaS subscription. All plans include updates, cloud hosting, and support.
     </p>
 
     <div className="grid lg:grid-cols-4 gap-8">
 
-      {/* STARTER SYSTEM */}
+      {/* STARTER */}
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
-        <h4 className="text-lg font-semibold mb-2">Starter System</h4>
-        <p className="text-white/50 text-sm mb-6">One-Time Setup for Small Formal SMEs</p>
-        <p className="text-white/40 mb-4">ZMW 50,000 – 75,000 (One-Time)</p>
+        <h4 className="text-lg font-semibold mb-2">Starter</h4>
+        <p className="text-white/50 text-sm mb-6">Small SME Cloud ERP</p>
+        <p className="text-white/40 mb-4">ZMW 1,800 / month</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• Pre-configured Offline System</li>
+          <li>• Pre-configured Online ERP</li>
           <li>• Basic Inventory or Workflow Tracking</li>
-          <li>• Local Deployment</li>
-          <li>• No Ongoing Support</li>
+          <li>• Online Deployment</li>
+          <li>• Monthly SaaS Support</li>
         </ul>
         <Link 
           href="/contact" 
@@ -176,11 +176,11 @@ export default function MansacoreGrowthPage() {
         <span className="text-xs uppercase tracking-widest text-cyan-400">Core Focus</span>
         <h4 className="text-lg font-semibold mb-2 mt-2 text-cyan-400">Professional</h4>
         <p className="text-white/50 text-sm mb-6">Full AI Insight Engine</p>
-        <p className="text-white/40 mb-4">ZMW 180,000 – 350,000 / year</p>
+        <p className="text-white/40 mb-4">ZMW 3,800 / month</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
           <li>• Cluster Scoring & Behavioral Segmentation</li>
           <li>• Trend Detection & Decision Dashboards</li>
-          <li>• Use-Case Customization</li>
+          <li>• Use-Case Configuration</li>
           <li>• Quarterly Insight Reviews</li>
         </ul>
         <Link 
@@ -194,8 +194,8 @@ export default function MansacoreGrowthPage() {
       {/* PREMIUM */}
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
         <h4 className="text-lg font-semibold mb-2">Premium</h4>
-        <p className="text-white/50 text-sm mb-6">Full Decision Intelligence System</p>
-        <p className="text-white/40 mb-4">ZMW 600,000 – 1,200,000 / year</p>
+        <p className="text-white/50 text-sm mb-6">Advanced Decision Intelligence</p>
+        <p className="text-white/40 mb-4">ZMW 7,500 / month</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
           <li>• Predictive Modeling</li>
           <li>• Sector Intelligence Layer</li>
@@ -214,7 +214,7 @@ export default function MansacoreGrowthPage() {
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
         <h4 className="text-lg font-semibold mb-2">Enterprise</h4>
         <p className="text-white/50 text-sm mb-6">Custom Institutional AI Platform</p>
-        <p className="text-white/40 mb-4">—</p>
+        <p className="text-white/40 mb-4">Contact for Pricing</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
           <li>• Multi-Layer Deployment</li>
           <li>• Custom Models & Integrations</li>

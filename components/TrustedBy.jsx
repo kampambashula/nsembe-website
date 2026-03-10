@@ -18,10 +18,7 @@ export default function TrustedByCarousel() {
 
   return (
     <section className="py-8 px-4 text-center bg-white">
-      <h2 className="font-display font-800 text-4xl mb-12 text-gray-900 tracking-wide">
-        Trusted By
-      </h2>
-
+      
       <div className="overflow-hidden">
         <motion.div
           className="flex gap-6 sm:gap-8 md:gap-12 w-max"

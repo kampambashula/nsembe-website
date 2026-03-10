@@ -1,0 +1,207 @@
+import Layout from "../../components/Layout";
+import Link from "next/link";
+import Image from "next/image";
+
+export default function FreightOS() {
+  return (
+    <Layout>
+      <div className="bg-dark-bg min-h-screen text-white">
+
+        {/* HERO */}
+        <section className="relative py-32 px-6 overflow-hidden">
+          <div className="absolute inset-0 bg-grid-pattern opacity-30" />
+          <div className="absolute right-0 top-0 w-[500px] h-[500px] bg-orange-500/5 blur-3xl rounded-full" />
+
+          <div className="relative max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <span className="font-mono text-xs tracking-widest text-orange-400 uppercase">
+                Freight OS – Logistics Tracking System
+              </span>
+
+              <h1 className="font-display font-800 text-5xl lg:text-6xl leading-tight mt-6">
+                Track & Manage
+                <br />
+                <span className="text-orange-400">Logistics Across Africa.</span>
+              </h1>
+
+              <p className="text-white/60 mt-8 text-lg leading-relaxed">
+                Freight OS provides a complete logistics management platform for freight, delivery, and supply chain operations — enabling real-time tracking, reporting, and optimization across African routes.
+              </p>
+
+              <div className="mt-10">
+                <Link
+                  href="/contact"
+                  className="px-8 py-4 bg-orange-500 rounded-xl font-semibold hover:bg-orange-600 transition"
+                >
+                  Request Demo →
+                </Link>
+              </div>
+            </div>
+
+            {/* MOCKUP IMAGE */}
+            <div>
+              <Image
+                src="/images/systems/freight1.png"
+                alt="Freight OS Dashboard Mockup"
+                width={900}
+                height={600}
+                className="rounded-2xl shadow-2xl border border-white/10"
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* FEATURES SECTION */}
+        <section className="py-28 px-6">
+          <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <h3 className="font-display font-700 text-3xl mb-6 text-orange-400">
+                Key Features
+              </h3>
+
+              <p className="text-white/60 leading-relaxed mb-6">
+                Freight OS supports logistics operators with:
+              </p>
+
+              <ul className="space-y-3 text-white/70 list-disc list-inside">
+                <li>Real-time vehicle & cargo tracking</li>
+                <li>Route optimization & analytics</li>
+                <li>Inventory & warehouse management</li>
+                <li>Driver & fleet performance monitoring</li>
+                <li>Custom reporting dashboards for operations</li>
+              </ul>
+            </div>
+
+            <div>
+              <Image
+                src="/images/systems/freight2.png"
+                alt="Freight OS Analytics"
+                width={800}
+                height={500}
+                className="rounded-xl border border-white/10 shadow-lg"
+              />
+            </div>
+          </div>
+
+
+        </section>
+
+        {/* PRICING SECTION */}
+<section className="py-32 px-6 bg-dark-bg">
+  <div className="max-w-7xl mx-auto text-center">
+
+    <h3 className="font-display font-800 text-4xl mb-16">
+      Freight OS — SaaS Pricing
+    </h3>
+
+    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+      {/* BASIC FREIGHT PLAN */}
+      <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
+        <h4 className="font-display text-xl mb-4 text-orange-400">
+          Basic Plan
+        </h4>
+        <p className="text-3xl font-bold mb-6">
+          ZMW 2,000
+          <span className="text-sm text-white/50"> / month</span>
+        </p>
+
+        <ul className="space-y-3 text-white/70 text-sm">
+          <li>Up to 5 Vehicles / Drivers</li>
+          <li>Real-time Tracking & Status Updates</li>
+          <li>Basic Route Analytics</li>
+          <li>Inventory & Warehouse Overview</li>
+          <li>Email Support</li>
+        </ul>
+
+        <Link 
+          href="/contact"
+          className="mt-6 inline-block px-6 py-3 bg-orange-500 rounded-xl font-semibold hover:bg-orange-600 transition"
+        >
+          Request a Quote
+        </Link>
+      </div>
+
+      {/* STANDARD FREIGHT PLAN */}
+      <div className="p-8 rounded-2xl border border-orange-500 bg-orange-500/5">
+        <h4 className="font-display text-xl mb-4 text-orange-400">
+          Standard Plan
+        </h4>
+        <p className="text-3xl font-bold mb-6">
+          ZMW 4,500
+          <span className="text-sm text-white/50"> / month</span>
+        </p>
+
+        <ul className="space-y-3 text-white/70 text-sm">
+          <li>Up to 25 Vehicles / Drivers</li>
+          <li>Advanced Route Optimization & Analytics</li>
+          <li>Inventory & Warehouse Management</li>
+          <li>Driver Performance Monitoring</li>
+          <li>Priority Email & Chat Support</li>
+        </ul>
+
+        <Link 
+          href="/contact"
+          className="mt-6 inline-block px-6 py-3 bg-orange-500 rounded-xl font-semibold hover:bg-orange-600 transition"
+        >
+          Request a Quote
+        </Link>
+      </div>
+
+      {/* ENTERPRISE FREIGHT PLAN */}
+      <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
+        <h4 className="font-display text-xl mb-4 text-orange-400">
+          Enterprise Plan
+        </h4>
+        <p className="text-3xl font-bold mb-6">
+          ZMW 8,500
+          <span className="text-sm text-white/50"> / month</span>
+        </p>
+
+        <ul className="space-y-3 text-white/70 text-sm">
+          <li>Unlimited Vehicles / Drivers</li>
+          <li>Multi-Region & Multi-Country Deployment</li>
+          <li>Custom Operational Dashboards</li>
+          <li>Advanced Reporting & KPI Analytics</li>
+          <li>Dedicated Account Manager & Onsite Training</li>
+        </ul>
+
+        <Link 
+          href="/contact"
+          className="mt-6 inline-block px-6 py-3 bg-orange-500 rounded-xl font-semibold hover:bg-orange-600 transition"
+        >
+          Request a Quote
+        </Link>
+      </div>
+
+    </div>
+
+    <p className="text-white/40 mt-10 text-sm">
+      Optional integration with ERP, GPS tracking hardware, or fleet IoT devices available upon request.
+    </p>
+
+  </div>
+</section>
+
+        {/* CTA SECTION */}
+        <section className="py-32 px-6 text-center bg-dark-bg-2">
+          <h3 className="font-display font-800 text-4xl mb-6">
+            Optimize Logistics Across Africa
+          </h3>
+
+          <p className="text-white/50 max-w-2xl mx-auto mb-10 leading-relaxed">
+            Implement Freight OS to manage fleets, track cargo, and streamline supply chains efficiently across regions.
+          </p>
+
+          <Link
+            href="/contact"
+            className="px-8 py-4 bg-orange-500 rounded-xl font-semibold hover:bg-orange-600 transition"
+          >
+            Schedule Demo →
+          </Link>
+        </section>
+
+      </div>
+    </Layout>
+  );
+}

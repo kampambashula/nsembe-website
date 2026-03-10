@@ -150,21 +150,19 @@ export default function ContactForm() {
                 </a>
               </p>
               <p className="text-white/70 mb-4">
+                <strong>Phone:</strong> +260973833383
+              </p>
+
+
+              <p className="text-white/70 mb-4">
                 <strong>Location:</strong> Lusaka, Zambia
               </p>
               <p className="text-white/60 leading-relaxed">
-                We're excited to collaborate with ministries, schools, NGOs, and 
-                partners. Reach out to discuss digital solutions, pilot deployments, 
-                or national scale projects. Let's build infrastructure that scales.
+                We're excited to solve your problems. <br></br> Let's build infrastructure that scales.
               </p>
             </div>
 
-            <Link
-              href="mailto:info@nsembe.online"
-              className="mt-6 inline-block px-6 py-3 bg-green-light text-dark-bg font-semibold rounded-xl hover:shadow-glow-green transition text-center"
-            >
-              Reach Out to Us →
-            </Link>
+            
           </div>
 
         </div>

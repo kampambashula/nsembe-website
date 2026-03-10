@@ -1,13 +1,21 @@
 import { useRouter } from "next/router";
 import ClinicaePlatform from "../../components/platforms/clinicae";
-import SavaraPlatform from "../../components/platforms/savara";
+import AssociationManagement from "../../components/platforms/AssociationManagement"
 import MansacorePlatform from "../../components/platforms/mansacore-growth";
 import SchoolServerPlatform from "../../components/platforms/school-server-os";
+import TraditionalLandSystem from "../../components/platforms/traditional-land";
+import InsuranceManagement from "../../components/platforms/insurance-management";
+import AmakweboMarket from "../../components/platforms/amakwebo-market";
+import VillageBanking from "../../components/platforms/VillageBanking";
 
 const platformMap = {
   "mansacore-growth": MansacorePlatform,
   clinicae: ClinicaePlatform,
-  savara: SavaraPlatform,
+  "traditional-land": TraditionalLandSystem,
+  'insurance-management': InsuranceManagement,
+  'amakwebo-market': AmakweboMarket,
+  "village-bank": VillageBanking,
+  "association-management":AssociationManagement,
   "school-server-os": SchoolServerPlatform,
 };
 

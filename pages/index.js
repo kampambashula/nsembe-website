@@ -14,6 +14,8 @@ import TrustBlock from "../components/TrustBlock";
 import OperationalScenarios from "../components/OperationalScenarios";
 import SecurityGovernance from "../components/SecurityGovernance";
 import Trustedby from "../components/TrustedBy";
+import OurSystems from "../components/OurSystems";
+import ReadMoreLive from "../components/ReadMoreLive"
 
 
 export default function Home() {
@@ -57,13 +59,15 @@ export default function Home() {
         <HeroVideo />
         <Trustedby />
         <Philosophy />
+        <Platforms />
         <Slider />
         <Hero />
-        <Platforms />
+        <OurSystems />
         <SystemsArchitecture />
         <TrustBlock />
         <MarketFocus />
         <OperationalScenarios />
+        <ReadMoreLive />
         <SecurityGovernance />
         <ContactForm />
       </main>

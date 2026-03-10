@@ -1,11 +1,11 @@
-// pages/about.jsx
+// pages/letter.jsx
 import Layout from "../components/Layout";
 import { useEffect, useRef } from "react";
 
-export default function AboutPage() {
+export default function LetterPage() {
   const pulseRef = useRef(null);
 
-  // Simple pulsing animation for the mission icon
+  // Simple pulsing animation for decorative element
   useEffect(() => {
     let frame;
     const el = pulseRef.current;
@@ -25,9 +25,8 @@ export default function AboutPage() {
     <Layout isHomePage={false}>
       <div className="bg-dark-bg text-white min-h-screen">
 
-        {/* HERO SECTION */}
+        {/* HERO / LETTER INTRO */}
         <section className="relative py-32 px-6 overflow-hidden">
-          {/* Background circles */}
           <div className="absolute inset-0">
             <div className="absolute top-10 left-1/4 w-80 h-80 bg-cyan-500/20 rounded-full animate-ping-slow" />
             <div className="absolute top-1/3 right-1/4 w-64 h-64 bg-green-light/20 rounded-full animate-pulse-slow" />
@@ -36,36 +35,40 @@ export default function AboutPage() {
 
           <div className="relative max-w-6xl mx-auto text-center z-10">
             <h1 className="font-display font-800 text-5xl lg:text-7xl leading-tight">
-              About <span className="text-cyan-400">Nsembe</span>
+              A Letter from the Founder
             </h1>
-            <p className="mt-6 text-white/60 text-lg max-w-2xl mx-auto leading-relaxed">
-              We build offline-first, intelligent software platforms for organizations where internet connectivity is limited. 
-              Our goal is to bring enterprise-grade tools to every institution, making advanced technology accessible everywhere.
+            <p className="mt-6 text-white/60 text-lg max-w-3xl mx-auto leading-relaxed">
+              Kampamba Shula shares the inspiration behind Nsembe Technologies, reflecting on the ethos, values, and vision that guide our work. "Nsembe" means sacrifice or offering in Nyanja — embodying the commitment we bring to every solution and institution we serve.
             </p>
           </div>
         </section>
 
-        {/* MISSION & VISION */}
-        <section className="py-28 px-6">
+        {/* FOUNDER BACKGROUND / INSPIRATION */}
+        <section className="py-28 px-6 bg-dark-bg-2">
           <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
+            {/* Text */}
             <div>
-              <h2 className="font-display font-700 text-4xl mb-6">Our Mission</h2>
+              <h2 className="font-display font-700 text-4xl mb-6 text-cyan-400">
+                The Journey
+              </h2>
               <p className="text-white/70 leading-relaxed mb-6">
-                To empower organizations in remote and low-connectivity environments with intelligent digital platforms that simplify operations, improve transparency, and enable data-driven decision making.
+                Growing up in Zambia, I visited schools, hospitals, and local institutions — only to find that many “systems” were down or unreliable. These experiences planted the seed for Nsembe Technologies: a commitment to build resilient, offline-first software that works where it is needed most.
               </p>
-              <h2 className="font-display font-700 text-4xl mb-6">Our Vision</h2>
+              <p className="text-white/70 leading-relaxed mb-6">
+                The name “Nsembe” resonates deeply with our ethos. Just as an offering is made with care and purpose, every platform we create is designed to empower institutions, improve efficiency, and enable access to critical technology in challenging environments.
+              </p>
               <p className="text-white/70 leading-relaxed">
-                To be the leading provider of offline-first technology solutions that bridge the digital divide and enable global access to enterprise-grade software.
+                This letter is an invitation to understand our philosophy, the stories that inspired our innovations, and the tangible impact we aim to deliver — one institution at a time.
               </p>
             </div>
 
-            {/* Dynamic icon effect in place of image */}
+            {/* Founder illustration / pulse effect */}
             <div className="relative w-full h-80 lg:h-[400px] flex items-center justify-center">
               <div
                 ref={pulseRef}
                 className="w-48 h-48 bg-cyan-400/20 rounded-full flex items-center justify-center text-6xl text-cyan-400 font-bold select-none"
               >
-                ⚡
+                📝
               </div>
               <div className="absolute w-64 h-64 bg-cyan-500/10 rounded-full blur-2xl animate-pulse-slow" />
               <div className="absolute w-80 h-80 bg-green-light/10 rounded-full blur-3xl animate-ping-slow" />
@@ -73,23 +76,23 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* CORE VALUES */}
-        <section className="py-28 px-6 bg-dark-bg-2">
+        {/* CORE ETHOS / VALUES */}
+        <section className="py-28 px-6">
           <div className="max-w-6xl mx-auto text-center">
-            <h2 className="font-display font-800 text-5xl mb-16">Our Core Values</h2>
+            <h2 className="font-display font-800 text-5xl mb-16">Our Ethos</h2>
             <div className="grid md:grid-cols-3 gap-12">
               {[
                 {
-                  title: "Innovation",
-                  description: "We embrace cutting-edge technology to solve real-world challenges in resource-limited environments.",
+                  title: "Sacrifice & Commitment",
+                  description: "We commit fully to delivering reliable solutions for institutions that depend on us, embracing the ethos of 'Nsembe' in all we do.",
                 },
                 {
-                  title: "Accessibility",
-                  description: "Technology should be accessible everywhere. Our platforms are designed for offline-first deployment and low-bandwidth environments.",
+                  title: "Resilience",
+                  description: "Our platforms are designed to work offline, withstand connectivity challenges, and operate under real-world constraints.",
                 },
                 {
-                  title: "Impact",
-                  description: "Every product we build aims to make a meaningful impact by increasing efficiency, transparency, and data-driven insights.",
+                  title: "Empowerment",
+                  description: "We aim to provide organizations with tools that improve efficiency, transparency, and access to data, enabling impactful decision-making.",
                 },
               ].map((val) => (
                 <div key={val.title} className="p-6 border border-white/10 rounded-2xl hover:shadow-lg transition">
@@ -101,7 +104,6 @@ export default function AboutPage() {
           </div>
         </section>
 
-        
       </div>
     </Layout>
   );

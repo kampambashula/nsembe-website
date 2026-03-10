@@ -122,151 +122,150 @@ export default function SchoolServerOSPage() {
         </section>
 
         {/* PRICING SECTION */}
-<section className="py-32 px-6 bg-dark-bg">
-  <div className="max-w-7xl mx-auto text-center">
+        <section className="py-32 px-6 bg-dark-bg">
+          <div className="max-w-7xl mx-auto text-center">
 
-    <h3 className="font-display font-800 text-4xl mb-16">
-      Institutional Pricing
-    </h3>
+            <h3 className="font-display font-800 text-4xl mb-16">
+              Institutional SaaS Pricing
+            </h3>
 
-    {/* Responsive Grid */}
-    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 
-      {/* SCHOOLTRACK BASIC */}
-      <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
-        <h4 className="font-display text-xl mb-4 text-green-400">
-          SchoolTrack Basic
-        </h4>
-        <p className="text-3xl font-bold mb-6">
-          Starting at ZMW 8,550
-          <span className="text-sm text-white/50"> / year</span>
-        </p>
+              {/* SCHOOLTRACK BASIC */}
+              <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
+                <h4 className="font-display text-xl mb-4 text-green-400">
+                  SchoolTrack Basic
+                </h4>
+                <p className="text-3xl font-bold mb-6">
+                  ZMW 850
+                  <span className="text-sm text-white/50"> / month</span>
+                </p>
 
-        <ul className="space-y-3 text-white/70 text-sm">
-          <li>Attendance Management</li>
-          <li>Student Records</li>
-          <li>Basic Reporting</li>
-          <li>Email Support</li>
-        </ul>
+                <ul className="space-y-3 text-white/70 text-sm">
+                  <li>Attendance Management</li>
+                  <li>Student Records</li>
+                  <li>Basic Reporting</li>
+                  <li>Email Support & Cloud Updates</li>
+                </ul>
 
-        <Link 
-          href="/contact"
-          className="mt-6 inline-block px-6 py-3 bg-green-500 rounded-xl font-semibold hover:bg-green-600 transition"
-        >
-          Request a Quote
-        </Link>
-      </div>
+                <Link 
+                  href="/contact"
+                  className="mt-6 inline-block px-6 py-3 bg-green-500 rounded-xl font-semibold hover:bg-green-600 transition"
+                >
+                  Request a Quote
+                </Link>
+              </div>
 
-      {/* SCHOOLTRACK PRO */}
-      <div className="p-8 rounded-2xl border border-green-500 bg-green-500/5">
-        <h4 className="font-display text-xl mb-4 text-green-400">
-          SchoolTrack Pro
-        </h4>
-        <p className="text-3xl font-bold mb-6">
-          Starting at ZMW 15,500
-          <span className="text-sm text-white/50"> / year</span>
-        </p>
+              {/* SCHOOLTRACK PRO */}
+              <div className="p-8 rounded-2xl border border-green-500 bg-green-500/5">
+                <h4 className="font-display text-xl mb-4 text-green-400">
+                  SchoolTrack Pro
+                </h4>
+                <p className="text-3xl font-bold mb-6">
+                  ZMW 1,550
+                  <span className="text-sm text-white/50"> / month</span>
+                </p>
 
-        <ul className="space-y-3 text-white/70 text-sm">
-          <li>Advanced Analytics</li>
-          <li>Automated Term Reports</li>
-          <li>District-Level Dashboard Sync</li>
-          <li>Priority Support</li>
-        </ul>
+                <ul className="space-y-3 text-white/70 text-sm">
+                  <li>Advanced Analytics</li>
+                  <li>Automated Term Reports</li>
+                  <li>District-Level Dashboard Sync</li>
+                  <li>Priority Support & Updates</li>
+                </ul>
 
-        <Link 
-          href="/contact"
-          className="mt-6 inline-block px-6 py-3 bg-green-500 rounded-xl font-semibold hover:bg-green-600 transition"
-        >
-          Request a Quote
-        </Link>
-      </div>
+                <Link 
+                  href="/contact"
+                  className="mt-6 inline-block px-6 py-3 bg-green-500 rounded-xl font-semibold hover:bg-green-600 transition"
+                >
+                  Request a Quote
+                </Link>
+              </div>
 
-      {/* SCHOOL SERVER LMS – STANDARD */}
-      <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
-        <h4 className="font-display text-xl mb-4 text-green-400">
-          School Server LMS – Standard
-        </h4>
-        <p className="text-3xl font-bold mb-6">
-          Starting at ZMW 22,500
-          <span className="text-sm text-white/50"> / once-off</span>
-        </p>
+              {/* SCHOOL SERVER LMS – STANDARD */}
+              <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
+                <h4 className="font-display text-xl mb-4 text-green-400">
+                  School Server LMS – Standard
+                </h4>
+                <p className="text-3xl font-bold mb-6">
+                  ZMW 2,250
+                  <span className="text-sm text-white/50"> / month</span>
+                </p>
 
-        <ul className="space-y-3 text-white/70 text-sm">
-          <li>Offline LMS Deployment</li>
-          <li>Local Wi-Fi Setup</li>
-          <li>Basic Teacher & Student Accounts</li>
-          <li>Onsite Installation</li>
-        </ul>
+                <ul className="space-y-3 text-white/70 text-sm">
+                  <li>Offline LMS Deployment</li>
+                  <li>Local Wi-Fi Setup</li>
+                  <li>Basic Teacher & Student Accounts</li>
+                  <li>Onsite Installation & SaaS Support</li>
+                </ul>
 
-        <Link 
-          href="/contact"
-          className="mt-6 inline-block px-6 py-3 bg-green-500 rounded-xl font-semibold hover:bg-green-600 transition"
-        >
-          Request a Quote
-        </Link>
-      </div>
+                <Link 
+                  href="/contact"
+                  className="mt-6 inline-block px-6 py-3 bg-green-500 rounded-xl font-semibold hover:bg-green-600 transition"
+                >
+                  Request a Quote
+                </Link>
+              </div>
 
-      {/* SCHOOL SERVER LMS – ADVANCED */}
-      <div className="p-8 rounded-2xl border border-green-500 bg-green-500/5">
-        <h4 className="font-display text-xl mb-4 text-green-400">
-          School Server LMS – Advanced
-        </h4>
-        <p className="text-3xl font-bold mb-6">
-          Starting at ZMW 28,500
-          <span className="text-sm text-white/50"> / once-off</span>
-        </p>
+              {/* SCHOOL SERVER LMS – ADVANCED */}
+              <div className="p-8 rounded-2xl border border-green-500 bg-green-500/5">
+                <h4 className="font-display text-xl mb-4 text-green-400">
+                  School Server LMS – Advanced
+                </h4>
+                <p className="text-3xl font-bold mb-6">
+                  ZMW 2,850
+                  <span className="text-sm text-white/50"> / month</span>
+                </p>
 
-        <ul className="space-y-3 text-white/70 text-sm">
-          
-          <li>Offline LMS Deployment with Multiple Classes</li>
-          <li>Local Wi-Fi Network + Teacher Dashboards</li>
-          <li>Automated Term Reports & Analytics</li>
-          <li>Onsite Installation & Teacher Training</li>
-        </ul>
+                <ul className="space-y-3 text-white/70 text-sm">
+                  <li>Offline LMS Deployment with Multiple Classes</li>
+                  <li>Local Wi-Fi Network + Teacher Dashboards</li>
+                  <li>Automated Term Reports & Analytics</li>
+                  <li>Onsite Installation & Teacher Training</li>
+                </ul>
 
-        <Link 
-          href="/contact"
-          className="mt-6 inline-block px-6 py-3 bg-green-500 rounded-xl font-semibold hover:bg-green-600 transition"
-        >
-          Request a Quote
-        </Link>
-      </div>
+                <Link 
+                  href="/contact"
+                  className="mt-6 inline-block px-6 py-3 bg-green-500 rounded-xl font-semibold hover:bg-green-600 transition"
+                >
+                  Request a Quote
+                </Link>
+              </div>
 
-      {/* SCHOOL SERVER OS */}
-      <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
-        <h4 className="font-display text-xl mb-4 text-green-400">
-          School Server OS
-        </h4>
-        <p className="text-3xl font-bold mb-6">
-          Starting at ZMW 34,500
-          <span className="text-sm text-white/50"> / once-off</span>
-        </p>
+              {/* SCHOOL SERVER OS HARDWARE */}
+              <div className="p-8 rounded-2xl border border-white/10 bg-dark-bg-3/40">
+                <h4 className="font-display text-xl mb-4 text-green-400">
+                  School Server OS Hardware
+                </h4>
+                <p className="text-3xl font-bold mb-6">
+                  Optional ZMW 3,450
+                  <span className="text-sm text-white/50"> / month</span>
+                </p>
 
-        <ul className="space-y-3 text-white/70 text-sm">
-          <li>Raspberry Pi Hardware</li>
-          <li>Offline LMS Deployment</li>
-          <li>Local Wi-Fi Network Setup</li>
-          <li>Onsite Installation</li>
-          <li>Full Training & Support</li>
-        </ul>
+                <ul className="space-y-3 text-white/70 text-sm">
+                  <li>Raspberry Pi Hardware</li>
+                  <li>Offline LMS Deployment</li>
+                  <li>Local Wi-Fi Network Setup</li>
+                  <li>Onsite Installation</li>
+                  <li>Full Training & Support</li>
+                </ul>
 
-        <Link 
-          href="/contact"
-          className="mt-6 inline-block px-6 py-3 bg-green-500 rounded-xl font-semibold hover:bg-green-600 transition"
-        >
-          Request a Quote
-        </Link>
-      </div>
+                <Link 
+                  href="/contact"
+                  className="mt-6 inline-block px-6 py-3 bg-green-500 rounded-xl font-semibold hover:bg-green-600 transition"
+                >
+                  Request a Quote
+                </Link>
+              </div>
 
-    </div>
+            </div>
 
-    <p className="text-white/40 mt-10 text-sm">
-      Custom pricing available for district or national-scale deployments.
-    </p>
+            <p className="text-white/40 mt-10 text-sm">
+              Custom pricing available for district or national-scale deployments.
+            </p>
 
-  </div>
-</section>
+          </div>
+        </section>
+
         {/* FINAL CTA */}
         <section className="py-32 px-6 text-center bg-dark-bg-2">
           <h3 className="font-display font-800 text-4xl mb-6">
