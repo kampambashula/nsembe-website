@@ -21,7 +21,7 @@ export default function Footer() {
   const socials = [
     {
       name: "LinkedIn",
-      href: "https://linkedin.com/company/nsembe-technologies",
+      href: "https://linkedin.com/company/nsembe",
       icon: (
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
           <rect x="1" y="1" width="14" height="14" rx="2" stroke="currentColor" strokeWidth="1.3"/>
@@ -29,18 +29,10 @@ export default function Footer() {
         </svg>
       ),
     },
-    {
-      name: "Twitter/X",
-      href: "https://twitter.com/nsembetech",
-      icon: (
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-          <path d="M2 2.5l5 6L2 13.5h1.5l3.9-4.5 3.1 4.5H14l-5.3-7.5L13.5 2.5H12l-3.5 4L5.5 2.5H2z" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
-        </svg>
-      ),
-    },
+   
     {
       name: "GitHub",
-      href: "https://github.com/nsembe-tech",
+      href: "https://github.com/nsembe",
       icon: (
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
           <path d="M8 1C4.13 1 1 4.13 1 8c0 3.09 2.01 5.71 4.79 6.64.35.06.48-.15.48-.34v-1.2c-1.95.42-2.36-.94-2.36-.94-.32-.81-.77-1.02-.77-1.02-.63-.43.05-.42.05-.42.7.05 1.07.72 1.07.72.62 1.06 1.63.75 2.02.58.06-.45.24-.75.44-.92-1.56-.18-3.2-.78-3.2-3.47 0-.77.27-1.39.72-1.88-.07-.18-.31-.89.07-1.85 0 0 .59-.19 1.93.72A6.7 6.7 0 018 4.87c.6.003 1.2.08 1.76.23 1.34-.91 1.93-.72 1.93-.72.38.96.14 1.67.07 1.85.45.49.72 1.11.72 1.88 0 2.7-1.64 3.29-3.2 3.47.25.22.48.65.48 1.31v1.94c0 .19.13.4.48.34C12.99 13.71 15 11.09 15 8c0-3.87-3.13-7-7-7z" stroke="currentColor" strokeWidth="1" fill="currentColor" opacity="0.8"/>
