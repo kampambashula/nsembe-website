@@ -45,7 +45,7 @@ export default function PlatformModel() {
             </div>
 
             <div className="text-cyan-300 mt-3 text-sm">
-              from K850 / month
+              from K350 / month
             </div>
 
           </div>

@@ -77,16 +77,16 @@ export default function MansacoreGrowthPage() {
 
     <div className="grid lg:grid-cols-3 gap-8">
 
-      {/* STARTER SYSTEM */}
+      {/* STARTER */}
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
-        <h4 className="text-lg font-semibold mb-2">Starter System</h4>
-        <p className="text-white/50 text-sm mb-6">Entry-Level ERP for Small SMEs</p>
-        <p className="text-white/40 mb-4">ZMW 1,300 / month</p>
+        <h4 className="text-lg font-semibold mb-2">Starter</h4>
+        <p className="text-white/50 text-sm mb-6">Small SMEs & New Businesses</p>
+        <p className="text-white/40 mb-4">ZMW 350 / month</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• Pre-configured Online ERP</li>
-          <li>• Basic Inventory & Workflow Tracking</li>
-          <li>• Standard Dashboards & Reports</li>
-          <li>• Onboarding & Minimal Training</li>
+          <li>• Basic Financial Management</li>
+          <li>• Core Accounting & Inventory</li>
+          <li>• Standard Reporting Dashboards</li>
+          <li>• Offline Access</li>
         </ul>
         <Link 
           href="/contact" 
@@ -96,17 +96,17 @@ export default function MansacoreGrowthPage() {
         </Link>
       </div>
 
-      {/* LOWER BAND */}
+      {/* PROFESSIONAL */}
       <div className="bg-cyan-500/10 border-2 border-cyan-400 rounded-2xl p-8 backdrop-blur scale-105 shadow-xl">
-        <h4 className="text-lg font-semibold mb-2 mt-2 text-cyan-400">Professional System</h4>
-        <p className="text-white/50 text-sm mb-6">Full Operational Control</p>
-        <p className="text-white/40 mb-4">ZMW 3,500 / month</p>
+        <h4 className="text-lg font-semibold mb-2 mt-2 text-cyan-400">Professional</h4>
+        <p className="text-white/50 text-sm mb-6">Growing SMEs & Multi-User Teams</p>
+        <p className="text-white/40 mb-4">ZMW 1,500 / month</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• Cluster-Specific Modules (Production, Distribution, Logistics)</li>
-          <li>• Inventory & Stock Movement Tracking</li>
-          <li>• Production / Dispatch Dashboards</li>
-          <li>• Online Deployment & Continuous Updates</li>
-          <li>• Monthly SaaS Support Included</li>
+          <li>• Full Operational Modules</li>
+          <li>• Multi-User Management (up to 25 users)</li>
+          <li>• Advanced Reporting & Dashboards</li>
+          <li>• Continuous Updates</li>
+          <li>• Monthly Support Included</li>
         </ul>
         <Link 
           href="/contact" 
@@ -116,17 +116,17 @@ export default function MansacoreGrowthPage() {
         </Link>
       </div>
 
-      {/* PREMIUM */}
+      {/* INSTITUTIONAL */}
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur">
-        <h4 className="text-lg font-semibold mb-2">Premium ERP</h4>
-        <p className="text-white/50 text-sm mb-6">Advanced AI-Powered Operational Insights</p>
-        <p className="text-white/40 mb-4">ZMW 7,000 / month</p>
+        <h4 className="text-lg font-semibold mb-2">Institutional</h4>
+        <p className="text-white/50 text-sm mb-6">Large Institutions & Enterprise Deployment</p>
+        <p className="text-white/40 mb-4">ZMW 36,000 / year</p>
         <ul className="text-white/70 space-y-2 text-left text-sm mt-6">
-          <li>• Predictive Modeling & AI Dashboards</li>
-          <li>• Sector Intelligence Layer</li>
-          <li>• Decision Simulations & Scenario Planning</li>
-          <li>• Quarterly Insight Workshops</li>
-          <li>• Multi-Cluster Operational Insights</li>
+          <li>• Unlimited Users</li>
+          <li>• Full ERP & AI Insights Modules</li>
+          <li>• Deployment & Setup Support Included</li>
+          <li>• Quarterly Analytics & Strategy Workshops</li>
+          <li>• Advanced Dashboards & Reporting</li>
         </ul>
         <Link 
           href="/contact" 
@@ -136,6 +136,27 @@ export default function MansacoreGrowthPage() {
         </Link>
       </div>
 
+    </div>
+  </div>
+</section>
+
+{/* OPTIONAL ADD-ONS */}
+<section className="py-24 px-6 text-center bg-dark-bg-2">
+  <div className="max-w-5xl mx-auto">
+    <h3 className="font-display font-800 text-3xl mb-8 text-white">Optional Add-Ons</h3>
+    <div className="grid md:grid-cols-3 gap-6 text-left text-white/70 text-lg">
+      <div className="bg-dark-bg-3 p-6 rounded-2xl border border-white/10 hover:shadow-lg transition">
+        <h4 className="font-semibold text-cyan-400 mb-2">AI Analytics Module</h4>
+        <p>ZMW 500 / month</p>
+      </div>
+      <div className="bg-dark-bg-3 p-6 rounded-2xl border border-white/10 hover:shadow-lg transition">
+        <h4 className="font-semibold text-cyan-400 mb-2">Advanced Dashboards</h4>
+        <p>ZMW 350 / month</p>
+      </div>
+      <div className="bg-dark-bg-3 p-6 rounded-2xl border border-white/10 hover:shadow-lg transition">
+        <h4 className="font-semibold text-cyan-400 mb-2">Custom Integrations</h4>
+        <p>ZMW 5,000 one-time</p>
+      </div>
     </div>
   </div>
 </section>
