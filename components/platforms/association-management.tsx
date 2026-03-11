@@ -104,7 +104,7 @@ export default function AssociationManagement() {
           <span className="text-sm text-white/50"> / month</span>
         </p>
         <p className="text-sm text-white/50 mb-6">
-          One-time Setup Fee: ZMW 1,500
+          One-time Setup Fee: ZMW 2,000
         </p>
 
         <ul className="space-y-3 text-white/70 text-sm">
@@ -162,7 +162,7 @@ export default function AssociationManagement() {
           <span className="text-sm text-white/50"> / month</span>
         </p>
         <p className="text-sm text-white/50 mb-6">
-          One-time Setup Fee: ZMW 23,500
+          One-time Setup Fee: ZMW 13,500
         </p>
 
         <ul className="space-y-3 text-white/70 text-sm">
