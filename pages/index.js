@@ -17,6 +17,7 @@ import Trustedby from "../components/TrustedBy";
 import OurSystems from "../components/OurSystems";
 import ReadMoreLive from "../components/ReadMoreLive";
 import PlatformModel from "../components/PlatformModel";
+import { Analytics } from "@vercel/analytics/next"
 
 
 export default function Home() {
@@ -73,6 +74,7 @@ export default function Home() {
         <SecurityGovernance />
         <ContactForm />
       </main>
+      <Analytics />
     </Layout>
   );
 }
