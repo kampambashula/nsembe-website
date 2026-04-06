@@ -1,4 +1,3 @@
-// components/Philosophy.jsx
 import { motion } from "framer-motion";
 
 export default function Philosophy() {
@@ -19,7 +18,7 @@ export default function Philosophy() {
   return (
     <section className="relative py-20 sm:py-24 lg:py-16 px-5 sm:px-6 bg-dark-bg-2 overflow-hidden">
       
-      {/* Background accent circles (scaled for mobile) */}
+      {/* Background accent circles */}
       <div className="absolute top-1/3 left-1/4 w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] lg:w-[400px] lg:h-[400px] rounded-full bg-gradient-to-r from-green-light/20 to-cyan-light/10 blur-3xl -z-10" />
       <div className="absolute bottom-1/4 right-1/4 w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[500px] lg:h-[500px] rounded-full bg-gradient-to-r from-cyan-light/20 to-green-light/10 blur-3xl -z-10" />
 
@@ -47,19 +46,9 @@ export default function Philosophy() {
             className="text-white/70 text-lg sm:text-xl md:text-2xl lg:text-3xl leading-relaxed font-medium"
             variants={item}
           >
-            Technology should{" "}
+            Build platforms that turn{" "}
             <span className="text-white font-semibold">
-              strengthen institutions
-            </span>, not replace them.
-          </motion.p>
-
-          <motion.p
-            className="text-white/70 text-lg sm:text-xl md:text-2xl lg:text-3xl leading-relaxed font-medium"
-            variants={item}
-          >
-            Intelligence must be accessible{" "}
-            <span className="text-white font-semibold">
-              beyond capital cities
+              data into decision-making intelligence
             </span>.
           </motion.p>
 
@@ -67,11 +56,20 @@ export default function Philosophy() {
             className="text-white/70 text-lg sm:text-xl md:text-2xl lg:text-3xl leading-relaxed font-medium"
             variants={item}
           >
-            Systems should{" "}
+            Platforms should deliver insights that work{" "}
             <span className="text-white font-semibold">
-              work offline
-            </span>{" "}
-            before they work online.
+              across markets, environments and constraints
+            </span>.
+          </motion.p>
+
+          <motion.p
+            className="text-white/70 text-lg sm:text-xl md:text-2xl lg:text-3xl leading-relaxed font-medium"
+            variants={item}
+          >
+            Systems must be{" "}
+            <span className="text-white font-semibold">
+              reliable without connectivity
+            </span>, ensuring continuity where infrastructure is limited.
           </motion.p>
         </motion.div>
       </div>

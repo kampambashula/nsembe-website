@@ -52,29 +52,7 @@ const platforms = [
   ),
 },
 
-  // Healthcare
-  {
-    name: "Clinicae",
-    slug: "clinicae",
-    subtitle: "Offline Health System",
-    category: "Healthcare",
-    description:
-      "A comprehensive offline-first electronic health record and clinical management system designed for health facilities with limited or no internet access. Syncs when connectivity is restored.",
-    features: [
-      "Patient records & clinical history",
-      "Pharmacy & inventory management",
-      "Appointment scheduling",
-      "Offline data sync & replication",
-    ],
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <path d="M14 3C8.48 3 4 7.48 4 13s4.48 10 10 10 10-4.48 10-10S19.52 3 14 3z" stroke="#46e9ca" strokeWidth="1.5" fill="rgba(70,233,202,0.1)" />
-        <path d="M11 14h6M14 11v6" stroke="#46e9ca" strokeWidth="2" strokeLinecap="round"/>
-      </svg>
-    ),
-  },
-
-  // Education
+   // Education
   {
     name: "School Server OS",
     slug: "school-server-os",
@@ -100,71 +78,6 @@ const platforms = [
     ),
   },
 
-  // AMS Systems
-  {
-    name: "Village Banking System",
-    slug: "village-banking",
-    subtitle: "Community Microfinance",
-    category: "AMS",
-    description:
-      "Enables community groups to manage savings, provide micro-loans, and improve financial inclusion in rural areas.",
-    features: [
-      "Group savings & loan management",
-      "Automated contribution tracking",
-      "Loan application & approval workflows",
-      "Financial reporting & dashboards",
-      "Mobile and offline access for members",
-    ],
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <circle cx="14" cy="14" r="10" stroke="#6be76a" strokeWidth="2" fill="rgba(107,231,106,0.1)"/>
-        <path d="M10 14l4 4 4-8" stroke="#6be76a" strokeWidth="2" strokeLinecap="round"/>
-      </svg>
-    ),
-  },
-  {
-    name: "Traditional Land System",
-    slug: "traditional-land",
-    subtitle: "Customary Land Management",
-    category: "AMS",
-    description:
-      "Digitally manages customary land allocations, tracks occupancy, and handles disputes efficiently for local authorities.",
-    features: [
-      "Customary land registry & occupancy tracking",
-      "Allocation approvals & reporting",
-      "Conflict & dispute management tools",
-      "Offline operation with secure sync",
-      "Integration with GIS mapping for plotting",
-    ],
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <rect x="4" y="4" width="20" height="20" rx="2" stroke="#f0d74d" strokeWidth="2" fill="rgba(240,215,77,0.08)"/>
-        <path d="M7 20v-8h14v8H7z" stroke="#f0d74d" strokeWidth="1.5"/>
-      </svg>
-    ),
-  },
-  {
-    name: "Amakwebo Market",
-    slug: "amakwebo-market",
-    subtitle: "Market Vendor Management",
-    category: "AMS",
-    description:
-      "Organizes informal markets by tracking vendors, sales, inventory, and payments with offline-first support.",
-    features: [
-      "Vendor registration & management",
-      "Sales tracking & inventory management",
-      "Digital payment & transaction tracking",
-      "Market analytics & reporting",
-      "Offline-first mobile and tablet support",
-    ],
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <rect x="4" y="8" width="20" height="12" rx="2" stroke="#f05a28" strokeWidth="1.8" fill="rgba(240,90,40,0.1)"/>
-        <path d="M4 12h20" stroke="#f05a28" strokeWidth="1.5"/>
-        <path d="M10 8v-2h8v2" stroke="#f05a28" strokeWidth="1.5"/>
-      </svg>
-    ),
-  },
   {
     name: "Insurance Management",
     slug: "insurance-management",

@@ -1,9 +1,9 @@
-// components/HeroVideo.jsx
 import Link from "next/link";
 
 export default function HeroVideo() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
@@ -12,10 +12,9 @@ export default function HeroVideo() {
         loop
         playsInline
         preload="metadata"
-        poster="/images/hero-poster.png" // low-res fallback while video loads
+        poster="/images/hero-poster.png"
       >
         <source src="/videos/hero-bg.mp4" type="video/mp4" />
-        {/* Fallback text for unsupported browsers */}
         Your browser does not support the video tag.
       </video>
 
@@ -24,14 +23,19 @@ export default function HeroVideo() {
 
       {/* Hero Content */}
       <div className="relative text-center px-6 max-w-4xl">
+        
         <h1 className="text-5xl lg:text-7xl font-display font-800 text-white mb-6">
-          Infrastructure for
+          Platforms for
           <br />
-          <span className="text-cyan-400">Intelligence in Emerging Markets</span>
+          <span className="text-cyan-400">
+            Market & Risk Intelligence
+          </span>
         </h1>
+
         <p className="text-white/70 mb-8 text-lg">
-          Offline AI for smarter decisions in any environment
+          Powered by Nsembe Alpha for stock market analysis and Gamma for portfolio risk intelligence — built for environments where offline-first reliability matters.
         </p>
+
         <div className="flex justify-center gap-4 flex-wrap">
           <Link
             href="#platforms"
@@ -46,6 +50,7 @@ export default function HeroVideo() {
             Partner With Us
           </Link>
         </div>
+
       </div>
     </section>
   );

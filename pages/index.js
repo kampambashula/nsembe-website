@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <Layout isHomePage={true}>
       <Head>
-        <title>Nsembe Technologies — Accelerating Intelligence, Empowering Institutions</title>
+        <title>Nsembe Technologies — Powering Decision Intelligence</title>
         <meta
           name="description"
           content="Nsembe Technologies builds offline-first AI platforms for governments, NGOs, schools, and enterprises in Africa and emerging markets. Cliicae, Savara, Mansacore Growth, and School Server OS."
@@ -34,7 +34,7 @@ export default function Home() {
 
         {/* Open Graph */}
         <meta property="og:title" content="Nsembe Technologies" />
-        <meta property="og:description" content="Accelerating Intelligence, Empowering Institutions." />
+        <meta property="og:description" content="Intelligence Infrastructure for Emerging Markets" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://nsembe.online" />
         <meta property="og:image" content="https://nsembe.online/og-image.png" />
@@ -42,7 +42,7 @@ export default function Home() {
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Nsembe Technologies" />
-        <meta name="twitter:description" content="Accelerating Intelligence, Empowering Institutions." />
+        <meta name="twitter:description" content="Intelligence Infrastructure for Emerging Markets" />
 
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" />
@@ -53,7 +53,7 @@ export default function Home() {
         {/* Keywords */}
         <meta
           name="keywords"
-          content="Nsembe Technologies, offline software, AI platforms, Africa tech, health system, education technology, data collection, NGO software, government software"
+          content="Nsembe Technologies, offline software, AI platforms, Africa tech, risk system, education technology, market intelligence,system software"
         />
       </Head>
 
@@ -62,10 +62,10 @@ export default function Home() {
         <Trustedby />
         <Philosophy />
         <PlatformModel />
-        <Platforms />
+        <OurSystems />
         <Slider />
         <Hero />
-        <OurSystems />
+        <Platforms />
         <SystemsArchitecture />
         <TrustBlock />
         <MarketFocus />

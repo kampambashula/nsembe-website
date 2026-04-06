@@ -1,21 +1,17 @@
 // pages/systems/[slug].jsx
 import { useRouter } from "next/router";
-import VillageBanking from "../../components/systems/VillageBanking";
 import InsuranceSystem from "../../components/systems/InsuranceManagement";
 import FreightOS from "../../components/systems/FreightOS";
-import CouncilLandSystem from "../../components/systems/CouncilLandSystem";
-import TraditionalLandSystem from "../../components/systems/TraditionalLandSystem";
 import Afrifinance from "../../components/systems/AfriFinance";
-import AmakweboMarket from "../../components/systems/AmakweboMarket"; // Amakwebo System
+import GammaRiskIntelligence from "../../components/systems/gamma-risk-intelligence";
+import NsembeAlpha from "../../components/systems/nsembe-alpha";
 
 const systemMap = {
-  "village-banking-system": VillageBanking,
+  
   "insurance-mgt-system": InsuranceSystem,
   "freight-os": FreightOS,
-  "council-land-system": CouncilLandSystem,
-  "traditional-land-system": TraditionalLandSystem,
-  afrifinance: Afrifinance,
-  "amakwebo-market-system": AmakweboMarket,
+  "nsembe-alpha": NsembeAlpha,
+  "gamma-risk-intelligence": GammaRiskIntelligence,
 };
 
 export default function SystemPage() {

@@ -3,15 +3,15 @@
 export default function PlatformModel() {
 
   const modules = [
-    "SchoolTrack",
-    "Afrifinance",
-    "Association Management",
-    "Healthcare Reporting",
-    "Council Land System",
-    "Traditional Land Registry",
-    "SME ERP",
-    "Business Intelligence"
-  ];
+  "Gamma",
+  "Nsembe Alpha",
+  "Market Pulse",
+  "GeoSim",
+  "FinCore",
+  "SME Nexus",
+  "Insight BI",
+  "Associa"
+];
 
   return (
     <section className="relative py-32 px-6 overflow-hidden bg-dark-bg-2">
@@ -45,7 +45,7 @@ export default function PlatformModel() {
             </div>
 
             <div className="text-cyan-300 mt-3 text-sm">
-              from K350 / month
+              Offline Capable
             </div>
 
           </div>

@@ -3,67 +3,7 @@ import SystemCard from "./SystemCard";
 import { useEffect, useRef } from "react";
 
 const systems = [
-  {
-    name: "Village Banking System",
-    slug: "village-banking-system",
-    subtitle: "Community Microfinance",
-    category: "Finance",
-    description:
-      "A microfinance platform for rural and semi-urban communities to manage savings, loans, and financial literacy programs locally.",
-    features: [
-      "Group savings management",
-      "Loan tracking & repayment schedules",
-      "Offline-first operations",
-      "Community financial reporting",
-    ],
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <circle cx="14" cy="14" r="10" stroke="#46e9ca" strokeWidth="1.5" fill="rgba(70,233,202,0.08)" />
-        <path d="M10 14h8M14 10v8" stroke="#46e9ca" strokeWidth="1.5" strokeLinecap="round" />
-      </svg>
-    ),
-  },
-  {
-    name: "Amakwebo Informal Market System",
-    slug: "amakwebo-market-system",
-    subtitle: "Informal Trade Management",
-    category: "Commerce",
-    description:
-      "A system for informal markets to track vendors, stalls, payments, and transactions digitally while remaining offline-first.",
-    features: [
-      "Vendor & stall registration",
-      "Transaction recording & reporting",
-      "Offline data sync",
-      "Market insights & analytics",
-    ],
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <rect x="4" y="4" width="20" height="20" rx="3" stroke="#ffb347" strokeWidth="1.5" fill="rgba(255,179,71,0.08)" />
-        <path d="M8 12h12M8 16h12" stroke="#ffb347" strokeWidth="1.5" strokeLinecap="round" />
-      </svg>
-    ),
-  },
-  {
-    name: "AfriFinance",
-    slug: "afrifinance",
-    subtitle: "Tokenized Blockchain System",
-    category: "Finance Blockchain",
-    description:
-      "A hybrid tokenized system enabling decentralized finance solutions with offline capabilities, designed for African markets.",
-    features: [
-      "Tokenized transactions",
-      "Decentralized ledger",
-      "Hybrid offline & online operation",
-      "Smart contract-enabled workflows",
-    ],
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <circle cx="14" cy="14" r="10" stroke="#8e44ad" strokeWidth="1.5" fill="rgba(142,68,173,0.08)" />
-        <path d="M10 14l4-4 4 4-4 4-4-4z" stroke="#8e44ad" strokeWidth="1.5" strokeLinecap="round" />
-      </svg>
-    ),
-  },
-  {
+    {
     name: "Freight OS",
     slug: "freight-os",
     subtitle: "African Logistics Tracking",
@@ -105,45 +45,45 @@ const systems = [
     ),
   },
   {
-    name: "Council Land System",
-    slug: "council-land-system",
-    subtitle: "Urban Land Administration",
-    category: "Land Management",
-    description:
-      "A land registry and administration system for councils, allowing offline property records, transfers, and land planning.",
-    features: [
-      "Property records management",
-      "Offline-first operations",
-      "Permit & transfer tracking",
-      "GIS mapping support",
-    ],
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <rect x="5" y="5" width="18" height="18" rx="2" stroke="#1abc9c" strokeWidth="1.5" fill="rgba(26,188,156,0.08)" />
-        <path d="M9 14h10M14 9v10" stroke="#1abc9c" strokeWidth="1.5" />
-      </svg>
-    ),
-  },
-  {
-    name: "Traditional Land System",
-    slug: "traditional-land-system",
-    subtitle: "Customary Land Administration",
-    category: "Land Management",
-    description:
-      "A system for managing customary land records and transfers, supporting traditional authorities and offline operation.",
-    features: [
-      "Traditional land records",
-      "Community approvals & tracking",
-      "Offline-first operations",
-      "Reporting & mapping tools",
-    ],
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <path d="M4 20l10-12 10 12H4z" stroke="#2ecc71" strokeWidth="1.5" fill="rgba(46,204,113,0.08)" />
-        <path d="M14 8v12" stroke="#2ecc71" strokeWidth="1.5" />
-      </svg>
-    ),
-  },
+  name: "Gamma Risk Intelligence",
+  slug: "gamma-risk-intelligence",
+  subtitle: "Portfolio & Credit Risk Intelligence",
+  category: "Financial Intelligence",
+  description:
+    "An advanced risk analytics platform for modeling credit exposure, portfolio performance, and macroeconomic scenarios to support financial decision-making.",
+  features: [
+    "PD, LGD, and EAD modeling",
+    "Portfolio risk dashboards",
+    "Macroeconomic scenario analysis",
+    "Risk grading and segmentation",
+  ],
+  icon: (
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+      <rect x="5" y="5" width="18" height="18" rx="2" stroke="#f1c40f" strokeWidth="1.5" fill="rgba(241,196,15,0.08)" />
+      <path d="M8 18l4-6 4 3 4-7" stroke="#f1c40f" strokeWidth="1.5" />
+    </svg>
+  ),
+},
+{
+  name: "Nsembe Alpha",
+  slug: "nsembe-alpha",
+  subtitle: "Stock Market Intelligence",
+  category: "Financial Intelligence",
+  description:
+    "A market analysis platform for evaluating stocks, tracking portfolios, and combining fundamentals, technicals, and macro signals into actionable insights.",
+  features: [
+    "Stock screening & filtering",
+    "Valuation models (DCF, ratios)",
+    "Technical indicators & charts",
+    "Portfolio tracking & watchlists",
+  ],
+  icon: (
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+      <rect x="4" y="6" width="20" height="16" rx="2" stroke="#f39c12" strokeWidth="1.5" fill="rgba(243,156,18,0.08)" />
+      <path d="M7 18l4-5 4 3 6-8" stroke="#f39c12" strokeWidth="1.5" />
+    </svg>
+  ),
+},
 ];
 
 export default function OurSystems() {

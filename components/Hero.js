@@ -159,9 +159,7 @@ export default function Hero() {
             className="animate-fade-up opacity-0-init stagger-3 font-body text-base sm:text-lg text-white/50 leading-relaxed max-w-md"
             style={{ animationFillMode: "forwards" }}
           >
-            We build offline-first AI platforms and enterprise systems for Business, Governments, schools,
-            NGOs, and healthcare providers across emerging markets — where connectivity is a
-            challenge, not a given.
+            Our core platforms, Nsembe Alpha and Gamma Risk Intelligence, power a broader suite of enterprise systems for organizations across business, finance, and public sectors. Built for emerging markets, our solutions combine offline-first architecture with intelligent analytics to support reliable operations and informed decisions.
           </p>
 
           {/* CTA buttons */}
