@@ -3,64 +3,95 @@
 export default function PlatformModel() {
 
   const modules = [
-  "Gamma",
-  "Nsembe Alpha",
-  "Market Pulse",
-  "GeoSim",
-  "FinCore",
-  "SME Nexus",
-  "Insight BI",
-  "Associa"
-];
+    {
+      title: "Financial Computation",
+      desc: "Credit risk (ECL), pricing models, forecasting, simulations"
+    },
+    {
+      title: "Pension & Fund Systems",
+      desc: "Contributions, benefits, member lifecycle, compliance"
+    },
+    {
+      title: "Payments Infrastructure",
+      desc: "Collections, disbursements, wallets, bank integrations"
+    },
+    {
+      title: "Agent & SME Networks",
+      desc: "Agent banking, float management, commissions, SME tools"
+    },
+    {
+      title: "Market & Portfolio Intelligence",
+      desc: "Market data, portfolio analytics, risk monitoring"
+    },
+    {
+      title: "Geospatial & Scenario Modeling",
+      desc: "Location intelligence, simulations, planning tools"
+    },
+    {
+      title: "Data & Decision Intelligence",
+      desc: "Dashboards, reporting, pipelines, real-time insights"
+    },
+    {
+      title: "Institutional Workflow Systems",
+      desc: "Association management systems, case management, operations"
+    }
+  ];
 
   return (
-    <section className="relative py-32 px-6 overflow-hidden bg-dark-bg-2">
+    <section className="relative w-full py-32 overflow-hidden bg-dark-bg-2">
 
       {/* ambient glow */}
-      <div className="absolute top-1/2 left-1/2 w-[900px] h-[900px] bg-cyan-400/10 blur-[200px] -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
+      <div className="absolute top-1/2 left-1/2 w-[1000px] h-[1000px] bg-cyan-400/10 blur-[220px] -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
 
-      <div className="relative z-10 max-w-6xl mx-auto text-center">
+      <div className="relative z-10 w-full px-6 lg:px-16">
 
-        <h2 className="font-display font-800 text-4xl text-white mb-6">
-          The Nsembe Platform
-        </h2>
+        {/* HEADER (controlled width) */}
+        <div className="max-w-4xl mx-auto text-center mb-20">
 
-        <p className="text-white/70 max-w-3xl mx-auto mb-20 text-lg leading-relaxed">
-          All Nsembe systems run on a unified platform designed for offline-first
-          institutions. Organisations start with the core platform and activate
-          modules as their operations grow.
-        </p>
+          <h2 className="font-display font-800 text-4xl text-white mb-6">
+            What Nsembe Powers
+          </h2>
 
-        {/* Platform core */}
-        <div className="relative flex justify-center items-center mb-20">
-
-          <div className="platform-core">
-
-            <div className="text-xl font-semibold text-white mb-2">
-              Nsembe IO
-            </div>
-
-            <div className="text-white/60 text-sm">
-              Identity • Permissions • Reporting • Sync
-            </div>
-
-            <div className="text-cyan-300 mt-3 text-sm">
-              Offline Capable
-            </div>
-
-          </div>
+          <p className="text-white/70 text-lg leading-relaxed">
+            A unified computation and infrastructure layer for financial systems and institutional operations —
+            from risk modeling and pensions to payments, data, and decision intelligence.
+          </p>
 
         </div>
 
-        {/* Modules grid */}
-        <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+        {/* CORE (centered but not boxed too tight) */}
+        <div className="flex justify-center items-center mb-24">
+          <div className="platform-core">
+
+            <div className="text-xl font-semibold text-white mb-2">
+              Nsembe Core
+            </div>
+
+            <div className="text-white/60 text-sm text-center px-4">
+              Identity • Permissions • Data Layer • APIs • Sync
+            </div>
+
+            <div className="text-cyan-300 mt-3 text-sm">
+              Offline-First • Cloud-Ready
+            </div>
+
+          </div>
+        </div>
+
+        {/* GRID (FULL WIDTH — this is the big change) */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
           {modules.map((m) => (
-            <div
-              key={m}
-              className="module-card"
-            >
-              {m}
+            <div key={m.title} className="module-card">
+
+              <div className="text-white font-semibold mb-2">
+                {m.title}
+              </div>
+
+              <div className="text-white/60 text-sm leading-relaxed">
+                {m.desc}
+              </div>
+
             </div>
           ))}
 
@@ -96,10 +127,8 @@ export default function PlatformModel() {
           backdrop-filter: blur(16px);
           border: 1px solid rgba(255,255,255,0.08);
           border-radius: 16px;
-          padding: 18px;
-          text-align: center;
-          color: rgba(255,255,255,0.75);
-          font-size: 15px;
+          padding: 20px;
+          text-align: left;
           transition: all 0.4s ease;
         }
 
@@ -107,7 +136,6 @@ export default function PlatformModel() {
           transform: translateY(-6px);
           border-color: rgba(70,233,202,0.4);
           box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-          color: white;
         }
 
       `}</style>

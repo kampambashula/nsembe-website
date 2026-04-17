@@ -19,35 +19,40 @@ export default function HeroVideo() {
       </video>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="absolute inset-0 bg-black/70"></div>
 
       {/* Hero Content */}
-      <div className="relative text-center px-6 max-w-4xl">
+      <div className="relative text-center px-6 max-w-5xl">
         
-        <h1 className="text-5xl lg:text-7xl font-display font-800 text-white mb-6">
-          Platforms for
+        <h1 className="text-5xl lg:text-7xl font-display font-800 text-white mb-6 leading-tight">
+          The Operating System for
           <br />
           <span className="text-cyan-400">
-            Market & Risk Intelligence
+            Financial & Institutional Intelligence
           </span>
         </h1>
 
-        <p className="text-white/70 mb-8 text-lg">
-          Powered by Nsembe Alpha for stock market analysis and Gamma for portfolio risk intelligence — built for environments where offline-first reliability matters.
+        <p className="text-white/70 mb-8 text-lg max-w-2xl mx-auto">
+          Nsembe powers how institutions calculate risk, manage financial systems,
+          and make decisions — from credit models and pensions to payments and analytics.
+        </p>
+
+        <p className="text-white/50 mb-10 text-sm tracking-wide uppercase">
+          Built for banks, pension funds, fintechs, and governments in emerging markets
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
           <Link
-            href="#platforms"
+            href="#use-cases"
             className="px-6 py-3 bg-cyan-500 rounded-xl font-semibold hover:bg-cyan-600 transition"
           >
-            Explore Platforms
+            Explore Use Cases
           </Link>
           <Link
             href="/contact"
             className="px-6 py-3 bg-white/10 rounded-xl font-semibold hover:bg-white/20 transition"
           >
-            Partner With Us
+            Request Demo
           </Link>
         </div>
 
