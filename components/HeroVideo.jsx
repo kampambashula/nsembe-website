@@ -25,20 +25,19 @@ export default function HeroVideo() {
       <div className="relative text-center px-6 max-w-5xl">
         
         <h1 className="text-5xl lg:text-7xl font-display font-800 text-white mb-6 leading-tight">
-          The Operating System for
+          Decision
           <br />
           <span className="text-cyan-400">
-            Financial & Institutional Intelligence
+          Intelligence Infrastructure
           </span>
         </h1>
 
         <p className="text-white/70 mb-8 text-lg max-w-2xl mx-auto">
-          Nsembe powers how institutions calculate risk, manage financial systems,
-          and make decisions — from credit models and pensions to payments and analytics.
+          We operate at the intersection of systems engineering, financial computation and institutional strategy.
         </p>
 
         <p className="text-white/50 mb-10 text-sm tracking-wide uppercase">
-          Built for banks, pension funds, fintechs, and governments in emerging markets
+          A decision intelligence infrastructure company
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
